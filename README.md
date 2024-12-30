@@ -1,4 +1,4 @@
-#### Shiny App: Discrete Water Temperature & Specific Conductance (DiSCWT) processing tool
+### Shiny App: Discrete Water Temperature & Specific Conductance (DiSCWT) processing tool
 
 #### Overview
 
