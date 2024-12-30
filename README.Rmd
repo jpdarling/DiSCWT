@@ -48,9 +48,10 @@ The app is built in Rstudio using the following directory structure. Files can b
 ### How to Use:
 1.  Run the app on a shinyapps.io server:
     <https://discwt.shinyapps.io/discwt/> or download the file directory to run app.R from RStudio. 
-2.  Follow the on-screen instructions to batch upload and process SVMAQ XML files.
-3.  Process the files and check for any issues printed in the processing log.
-4.  Use the buttons to download `qwsample.txt` and `qwresult.txt`.
+2.  Select your field office. This will populate in the project_cd, for example "UT25MOAB".
+3.  Batch upload SVMAQ XML files.
+4.  Process the files and check for any issues printed in the processing log.
+5.  Download `qwsample.txt` and `qwresult.txt` files.
 
 <br>
 
@@ -69,14 +70,14 @@ The tool identifies specific XML paths and uses regex patterns to capture inform
 
 - ##### *`specific cond = 747 uS/cm 1 ft from lew 0.3 ft depth`*
 
-- ##### *`sc = 335 2 ft from RB`*
+- ##### *`sc: 335 2 ft from RB`*
 
 
 ####   Recongized formats for site visit comments:
 
 - ##### *`...@ 10:53 sc = 230 uS/cm, WT = 13.2 deg C, from middle of channel width = 1.2 ft, and 0.4 ft depth`*
 
-- ##### *`cond = 547 uS/cm, 32.1F, width =22 ft, 1 ft from loew 1 ft depth`*
+- ##### *`cond: 547 uS/cm, 32.1F, width =22 ft, 1 ft from loew 1 ft depth`*
 
 - ##### *`...spec cond = 269 uS/cm, 5.5 deg, 1 ft from rew 0.5 ft depth.`*
     
@@ -130,7 +131,7 @@ Many parameter values are derived from fields within the XML structure however s
 
     The script first attempts to extract the verification water temperature and its unit from the XML structure associated with ADV measurements. If no temperature data is found, it searches the site visit comments for temperature values using regex patterns. The regex matches phrases such as **`"temp=8.3 deg C"`** or **`"WT = 32F"`**, and identifies temperature units of either **`"C"`** (Celsius) or **`"F"`**(Fahrenheit). 
 
-    If no unit is found, the script defaults to Celsius (°C), and prints a message in the processing log. If the temperature is recorded in Fahrenheit (°F), the script converts the value to Celsius (°C) using the formula: `Celsius = (Fahrenheit − 32) × (5/9)`, and prints both the original Fahrenheit value and its converted Celsius value in the processing log. Only valid temperatures reported in Celsius, are included in the final results.
+    If no unit is found, the script defaults to Celsius (°C), and prints a message in the processing log. If the temperature is recorded in Fahrenheit (°F), the script converts the value to Celsius (°C) using the formula: `Celsius = (Fahrenheit − 32) × (5/9)`, and prints both the original Fahrenheit value and its converted Celsius value in the processing log. Only valid temperatures reported in Celsius are included in the final results.
 
 <br>
 
