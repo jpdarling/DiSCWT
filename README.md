@@ -8,7 +8,7 @@ uploading to Aquarius samples. It reads XML data, extracts relevant
 parameters, and compiles cleaned data into the following output data
 frames: `qwsamples.txt` and `qwresults.txt`.
 
-### Directory Structure
+#### Directory Structure
 
 The app is built in Rstudio using the following directory structure.
 Files can be accessed via the github
@@ -26,8 +26,8 @@ repository:[DiSCWT](https://github.com/jpdarling/DiSCWT)
     │   └── shinyapps.io/           # Folder for app settings
     │       └── discwt.dcf              # Deployment configuration file
     ├── test_xmls/            # Folder for input data used during app development
-    │   ├── sample1.xml             # Sample XML file for testing
-    │   └── ...                     # additional .xmls as needed for testing.
+    │   ├── SV_....xml              # Sample XML file for testing
+    │   └── ...                     # additional XML files as needed for testing.
     ├── README.Rmd            # Project documentation
     ├── www/                  # Folder to store stratic files 
     │   └── README.HTML             # Static HTML version of README for referencing within the app
@@ -36,14 +36,17 @@ repository:[DiSCWT](https://github.com/jpdarling/DiSCWT)
 #### How to Use
 
 1.  Run the app on a shinyapps.io server:
-    <https://discwt.shinyapps.io/discwt/>
-2.  Follow the on-screen instructions to batch upload and process files.
-3.  Check for any issues printed in the processing log.
-4.  Use the download buttons to retrieve the processed outputs.
+    <https://discwt.shinyapps.io/discwt/> or download the file directory
+    to run app.R from RStudio.
+2.  Follow the on-screen instructions to batch upload and process SVMAQ
+    XML files.
+3.  Process the files and check for any issues printed in the processing
+    log.
+4.  Use the buttons to download `qwsample.txt` and `qwresult.txt`.
 
 #### Notes
 
-The tool identifies specific xml paths and uses regex patterns to
+The tool identifies specific XML paths and uses regex patterns to
 capture information from XML comments, allowing for some variations in
 how the data may appear. There are inherent challenges to extracting
 data from varied comment formats. Below are some examples of XML
