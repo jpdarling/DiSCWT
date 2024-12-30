@@ -12,11 +12,11 @@ frames: `qwsamples.txt` and `qwresults.txt`.
 
 <br>
 
-### Directory Structure:
-
 The app is built in Rstudio using the following directory structure.
 Files can be accessed via the github
 repository:[DiSCWT](https://github.com/jpdarling/DiSCWT)
+
+### Directory structure:
 
 <br>
 
@@ -94,7 +94,7 @@ comments.
 
 <br>
 
-### Methods and Workflow for Extracting Specific Parameters from XML Comments:
+### Methods and workflow for extracting specific parameters from XML comments:
 
 Many parameter values are derived from fields within the XML structure
 however sometimes the script must look elsewhere to extract data. Below
@@ -201,18 +201,19 @@ unsupported XML comments associated with the various parameters:
 
 <br>
 
--   #### Specific Conductance (SC), Parameter 00095:
+-   #### Specific Conductance (μS/cm), Parameter 00095:
 
-    The script extracts SC data from comments associated with either the
-    discharge measurement or the site visit. The regex pattern
-    prioritizes matching **`"SC"`** values, checking for common patterns
-    such as **`"SC = 308 uS/cm"`** or **`"SC: 500 uS"`**. If a valid SC
-    value is found, it proceeds by extracting the numeric value and
-    verifying the unit of **`"μS/cm"`** (microsiemens per centimeter).
-    If no unit is specified, the function defaults to **`"μS/cm"`**, and
-    a message is printed in the processing log. If non-standard units
-    like “mS” or “ms” are found, a message indicates that conversion may
-    be needed, and the unit is marked as invalid.
+    The script extracts Specific Conductance (SC) data from comments
+    associated with either the discharge measurement or the site visit.
+    The regex pattern prioritizes matching **`"SC"`** values, checking
+    for common patterns such as **`"SC = 308 uS/cm"`** or
+    **`"SC: 500 uS"`**. If a valid SC value is found, it proceeds by
+    extracting the numeric value and verifying the unit of **`"μS/cm"`**
+    (microsiemens per centimeter). If no unit is specified, the function
+    defaults to **`"μS/cm"`**, and a message is printed in the
+    processing log. If non-standard units like “mS” or “ms” are found, a
+    message indicates that conversion may be needed, and the unit is
+    marked as invalid.
 
     If SC is not found, the script then searches for variations like
     **`"spec cond"`** or **`"specific cond"`** and follows the same
