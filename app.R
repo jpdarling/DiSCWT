@@ -58,6 +58,7 @@ ui <- fluidPage(
     }
     body {
       margin-top: 20px;
+      margin-bottom: 40px;
       background-color: white;
       border-radius: 5px;
     }
@@ -71,13 +72,14 @@ ui <- fluidPage(
       padding: 5px 15px;
   }
   .sidebarPanel {
-      color: black;
-      background-color: #f9f9f9 !important;
-      border: 1px solid #808080; 
-      border-radius: 5px; 
+      color: #333;
+      background-color: #f5f5f5 !important;
+      border: 1px solid #e5e5e5; 
+      border-radius: 4px; 
       padding: 15px; /* 
       box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
   }
+
 ")),
   
 
@@ -114,6 +116,7 @@ ui <- fluidPage(
     ),
     
     mainPanel(
+      class = ".mainPanel",
       h5("Uploaded Files"),
       verbatimTextOutput("uploaded_files"),  # Display original file names
       br(),
@@ -128,7 +131,7 @@ ui <- fluidPage(
     h4("Processing Notes:"),
     div(
       p("The tool uses specific xml paths and regex patterns to capture necessary information while allowing some flexibility in how the data may appear in unsupported XML comments. Some of the logic used to extract the data is explained in", style = "display: inline;"),
-      tags$a("README", href = "README.html", target = "_blank", style = "color: blue; text-decoration: underline; display: inline;"))
+      tags$a("README", href = "README.html", target = "_blank", style = "color: steelblue; text-decoration: underline; display: inline;"))
   ),
   
   # Footer
@@ -136,9 +139,13 @@ ui <- fluidPage(
       style = "margin-left: 15px; margin-top: 20px; padding: 15px; border-radius: 5px;",
       # Title
       div(
-        h5(strong("Contact: "), style = "display: inline; margin-right: 5px; face: bold; color: black;"), 
-        tags$span("direct questions or comments to", 
-                  a("jdarling@usgs.gov", href = "mailto:jdarling@usgs.gov")))
+          h5("GitHub: ", style = "display: inline; margin-right: 5px; face: bold; color: black;"), 
+          tags$a("https://github.com/jpdarling/DiSCWT \n", href = "https://github.com/jpdarling/DiSCWT", target = "_blank", style = "color: steelblue; text-decoration: underline; display: inline;"),
+      ),
+      br(),
+      div(
+        h5("Contact: ", style = "display: inline; margin-right: 5px; face: bold; color: black;"), 
+        tags$span(a("jdarling@usgs.gov", href = "mailto:jdarling@usgs.gov", style = "color: steelblue; text-decoration: underline; display: inline;")))
       ),
 )
 
