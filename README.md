@@ -37,7 +37,7 @@ repository:[DiSCWT](https://github.com/jpdarling/DiSCWT)
 
 1.  Run the app on a shinyapps.io server:
     <https://discwt.shinyapps.io/discwt/> or download the file directory
-    to run app.R from RStudio.
+    to run the app.R using RStudio.
 2.  Follow the on-screen instructions to batch upload and process SVMAQ
     XML files.
 3.  Process the files and check for any issues printed in the processing
