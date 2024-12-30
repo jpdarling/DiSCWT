@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="http://water.usgs.gov/XML/AQ/stylesheets/AQSVMobile_SS1.xsl"?>
+<UsgsHydroML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://water.usgs.gov/XML/AQ http://water.usgs.gov/XML/AQ/schema/UsgsHydroML.xsd" xmlns="http://water.usgs.gov/XML/AQ">
+  <Version>AQUARIUS</Version>
+  <Source>
+    <SoftwareName>SVMobile-AQ</SoftwareName>
+    <SoftwareVersionText>2.6.219.0</SoftwareVersionText>
+    <RemarksText />
+    <EmailAddress />
+    <CompDomain>gs.doi.net</CompDomain>
+  </Source>
+  <UnitsFamily>English</UnitsFamily>
+  <Site>
+    <SiteIdentifier organizationCode="USGS">09310700</SiteIdentifier>
+    <Name>MUD CRK BL WINTER QUARTERS CYN @ SCOFIELD, UT</Name>
+    <SiteData>
+      <SiteVisit>
+        <TimeRules>
+          <TimeZoneStandardName>Mountain Standard Time</TimeZoneStandardName>
+          <TimeZoneWinID>Mountain Standard Time</TimeZoneWinID>
+          <TimeDatumCode>MDT</TimeDatumCode>
+          <AdjustForDayLightSavings>true</AdjustForDayLightSavings>
+          <TimeZoneBaseUTCOffset>-07:00</TimeZoneBaseUTCOffset>
+        </TimeRules>
+        <StartDateTime timeDatumCode="MDT">2023-05-26T08:35:00-06:00</StartDateTime>
+        <EndDateTime>2023-05-26T09:07:00-06:00</EndDateTime>
+        <PartyText>TCL/SSB</PartyText>
+        <CollectionAgencyCode>USGS</CollectionAgencyCode>
+        <WeatherDescription>partly cloudy, cool, no precip, calm winds</WeatherDescription>
+        <RecorderRecordRemovedIndicator>false</RecorderRecordRemovedIndicator>
+        <WaterQualitySampleIndicator>false</WaterQualitySampleIndicator>
+        <SedimentSampleIndicator>false</SedimentSampleIndicator>
+        <BiologicalSampleIndicator>false</BiologicalSampleIndicator>
+        <OtherSampleIndicator>false</OtherSampleIndicator>
+        <LevelsRunIndicator>false</LevelsRunIndicator>
+        <GwWaterLevelsIndicator>false</GwWaterLevelsIndicator>
+        <SafetyInspectionPerformedIndicator>false</SafetyInspectionPerformedIndicator>
+        <Comment>site visit for HW q. No HWM on LB will check csg when stage drops.</Comment>
+        <DischargeMeasurementStatus>Started</DischargeMeasurementStatus>
+        <EnvironmentalMeasurementsStatus />
+        <StreamFlowControlInspectionStatus>Started</StreamFlowControlInspectionStatus>
+        <SensorInspectionStatus>Started</SensorInspectionStatus>
+        <StreamZeroFlowInspectionStatus>Not Started</StreamZeroFlowInspectionStatus>
+        <HighWaterMarkObservationStatus>Not Started</HighWaterMarkObservationStatus>
+        <StillingWellInspectionStatus />
+        <MiscSiteVisitInfoStatus>Not Started</MiscSiteVisitInfoStatus>
+        <DataAgingCode>500</DataAgingCode>
+        <DischargeMeasurement>
+          <MeasurementNumber>423</MeasurementNumber>
+          <DischargeDateTime>2023-05-26T08:53:00-06:00</DischargeDateTime>
+          <StartDateTime>2023-05-26T08:47:59-06:00</StartDateTime>
+          <EndDateTime>2023-05-26T08:58:01-06:00</EndDateTime>
+          <ReasonFor>Routine</ReasonFor>
+          <ShowInRatingDevelopment>true</ShowInRatingDevelopment>
+          <AddToTimeSeries>true</AddToTimeSeries>
+          <Publish>true</Publish>
+          <MeasurementQualityCode description="Fair (8%)">FAIR</MeasurementQualityCode>
+          <DischargeCode description="Measured">MEAS</DischargeCode>
+          <DischargeMeasure>164</DischargeMeasure>
+          <RatingNumberUsed>7.0</RatingNumberUsed>
+          <ReferenceGageHeightUsed>4.01</ReferenceGageHeightUsed>
+          <ShiftedRatingDischarge>181.60</ShiftedRatingDischarge>
+          <ShiftedRatingPercentDifference>-9.7</ShiftedRatingPercentDifference>
+          <UnshiftedRatingDischarge>181.6</UnshiftedRatingDischarge>
+          <UnshiftedRatingPercentDifference>-9.7</UnshiftedRatingPercentDifference>
+          <StageMeasure>4.01</StageMeasure>
+          <StageDifferenceMeasure>-0.02</StageDifferenceMeasure>
+          <StageDifferenceDurationMeasure>.2</StageDifferenceDurationMeasure>
+          <BaseFlowCode description="Non-base flow">NBAS</BaseFlowCode>
+          <Comment>fair due to high % sections .</Comment>
+          <Channel>
+            <ChannelNumber>1</ChannelNumber>
+            <ChannelName>main</ChannelName>
+            <DischargeMeasure>164</DischargeMeasure>
+            <DeploymentMethodCode description="Bridge downstream side">BRDS</DeploymentMethodCode>
+            <MeasurementMethodCode description="Midsection">QMIDSECTION</MeasurementMethodCode>
+            <VelocityMethodCode description="ADCP">WVADCP</VelocityMethodCode>
+            <ChannelMaterialCode description="cobbles">CBLS</ChannelMaterialCode>
+            <ChannelStabilityCode description="firm">FIRM</ChannelStabilityCode>
+            <ChannelEvennessCode description="even">EVEN</ChannelEvennessCode>
+            <HorizontalFlowCode description="Uneven">UNEV</HorizontalFlowCode>
+            <VerticalVelocityDistributionCode description="standard">STND</VerticalVelocityDistributionCode>
+            <VelocityVariation description="steady">STDY</VelocityVariation>
+            <SectionLocationCode description="Downstream">DNST</SectionLocationCode>
+            <SectionDistanceMeasure>4000</SectionDistanceMeasure>
+            <MidSectionDischargeMeasurement>
+              <StartPointCode description="Left edge of water">LEW</StartPointCode>
+              <SummaryOnly>true</SummaryOnly>
+              <AcousticDopplerCurrentProfiler>
+                <SensorType>
+                  <Parameter>
+                    <Name>Stream velocity</Name>
+                    <Units>ft/s</Units>
+                  </Parameter>
+                  <MethodCode description="ADCP">WVADCP</MethodCode>
+                  <ManufacturerName>RDI</ManufacturerName>
+                  <ModelNumber>RiverPro ADCP</ModelNumber>
+                </SensorType>
+                <SerialNumber>1117</SerialNumber>
+                <FrequencyCode>1200</FrequencyCode>
+              </AcousticDopplerCurrentProfiler>
+              <SuspensionCode description="Tethered boat">TETH</SuspensionCode>
+              <InspectedBeforeIndicator>true</InspectedBeforeIndicator>
+              <InspectedAfterIndicator>true</InspectedAfterIndicator>
+              <AreaMeasure>39.2</AreaMeasure>
+              <WidthMeasure>14.0</WidthMeasure>
+              <MeanVelocityMeasure>4.17</MeanVelocityMeasure>
+              <NumberSectionsMeasure>15</NumberSectionsMeasure>
+              <MeanObservationDuration>40.3</MeanObservationDuration>
+              <VelocityObservationCode description="Integrated-velocity profile">VDCP</VelocityObservationCode>
+              <HorizontalAngleIndicator>false</HorizontalAngleIndicator>
+              <MethodCoefficientIndicator>false</MethodCoefficientIndicator>
+              <SuspensionCoefficientIndicator>false</SuspensionCoefficientIndicator>
+              <InstrumentTimeSynchronized description="YES">true</InstrumentTimeSynchronized>
+              <InstrumentTimeSynchronizedDateTime>2023-05-26T08:45:00-06:00</InstrumentTimeSynchronizedDateTime>
+              <InstrumentTested description="YES">true</InstrumentTested>
+              <CompassCallibrationCompleted description="NO">false</CompassCallibrationCompleted>
+              <MidSectionStation>
+                <DistanceFromInitialPointMeasure>16.0</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.500</WidthMeasure>
+                <DepthMeasure>2.00</DepthMeasure>
+                <AreaMeasure>1.00</AreaMeasure>
+                <DischargeMeasure>2.06</DischargeMeasure>
+                <HorizontalAngleCoefficient>1.00</HorizontalAngleCoefficient>
+                <VelocityMeasure>2.06</VelocityMeasure>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2023-05-26T08:48:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>17.0</DistanceFromInitialPointMeasure>
+                <WidthMeasure>1.00</WidthMeasure>
+                <DepthMeasure>2.68</DepthMeasure>
+                <AreaMeasure>2.68</AreaMeasure>
+                <DischargeMeasure>6.15</DischargeMeasure>
+                <HorizontalAngleCoefficient>1.00</HorizontalAngleCoefficient>
+                <VelocityMeasure>2.29</VelocityMeasure>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2023-05-26T08:49:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>18.0</DistanceFromInitialPointMeasure>
+                <WidthMeasure>1.00</WidthMeasure>
+                <DepthMeasure>2.70</DepthMeasure>
+                <AreaMeasure>2.70</AreaMeasure>
+                <DischargeMeasure>7.83</DischargeMeasure>
+                <HorizontalAngleCoefficient>1.00</HorizontalAngleCoefficient>
+                <VelocityMeasure>2.89</VelocityMeasure>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2023-05-26T08:49:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>19.0</DistanceFromInitialPointMeasure>
+                <WidthMeasure>1.00</WidthMeasure>
+                <DepthMeasure>2.85</DepthMeasure>
+                <AreaMeasure>2.85</AreaMeasure>
+                <DischargeMeasure>9.42</DischargeMeasure>
+                <HorizontalAngleCoefficient>1.00</HorizontalAngleCoefficient>
+                <VelocityMeasure>3.31</VelocityMeasure>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2023-05-26T08:50:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>20.0</DistanceFromInitialPointMeasure>
+                <WidthMeasure>1.00</WidthMeasure>
+                <DepthMeasure>2.94</DepthMeasure>
+                <AreaMeasure>2.94</AreaMeasure>
+                <DischargeMeasure>10.6</DischargeMeasure>
+                <HorizontalAngleCoefficient>1.00</HorizontalAngleCoefficient>
+                <VelocityMeasure>3.59</VelocityMeasure>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2023-05-26T08:51:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>21.0</DistanceFromInitialPointMeasure>
+                <WidthMeasure>1.00</WidthMeasure>
+                <DepthMeasure>3.00</DepthMeasure>
+                <AreaMeasure>3.00</AreaMeasure>
+                <DischargeMeasure>13.3</DischargeMeasure>
+                <HorizontalAngleCoefficient>1.00</HorizontalAngleCoefficient>
+                <VelocityMeasure>4.42</VelocityMeasure>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2023-05-26T08:52:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>22.0</DistanceFromInitialPointMeasure>
+                <WidthMeasure>1.00</WidthMeasure>
+                <DepthMeasure>3.07</DepthMeasure>
+                <AreaMeasure>3.07</AreaMeasure>
+                <DischargeMeasure>14.5</DischargeMeasure>
+                <HorizontalAngleCoefficient>1.00</HorizontalAngleCoefficient>
+                <VelocityMeasure>4.71</VelocityMeasure>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2023-05-26T08:53:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>23.0</DistanceFromInitialPointMeasure>
+                <WidthMeasure>1.00</WidthMeasure>
+                <DepthMeasure>3.01</DepthMeasure>
+                <AreaMeasure>3.01</AreaMeasure>
+                <DischargeMeasure>15.4</DischargeMeasure>
+                <HorizontalAngleCoefficient>1.00</HorizontalAngleCoefficient>
+                <VelocityMeasure>5.11</VelocityMeasure>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2023-05-26T08:53:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>24.0</DistanceFromInitialPointMeasure>
+                <WidthMeasure>1.00</WidthMeasure>
+                <DepthMeasure>3.03</DepthMeasure>
+                <AreaMeasure>3.03</AreaMeasure>
+                <DischargeMeasure>15.7</DischargeMeasure>
+                <HorizontalAngleCoefficient>1.00</HorizontalAngleCoefficient>
+                <VelocityMeasure>5.18</VelocityMeasure>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2023-05-26T08:54:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>25.0</DistanceFromInitialPointMeasure>
+                <WidthMeasure>1.00</WidthMeasure>
+                <DepthMeasure>3.06</DepthMeasure>
+                <AreaMeasure>3.06</AreaMeasure>
+                <DischargeMeasure>17.2</DischargeMeasure>
+                <HorizontalAngleCoefficient>1.00</HorizontalAngleCoefficient>
+                <VelocityMeasure>5.61</VelocityMeasure>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2023-05-26T08:55:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>26.0</DistanceFromInitialPointMeasure>
+                <WidthMeasure>1.00</WidthMeasure>
+                <DepthMeasure>2.99</DepthMeasure>
+                <AreaMeasure>2.99</AreaMeasure>
+                <DischargeMeasure>16.1</DischargeMeasure>
+                <HorizontalAngleCoefficient>1.00</HorizontalAngleCoefficient>
+                <VelocityMeasure>5.37</VelocityMeasure>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2023-05-26T08:56:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>27.0</DistanceFromInitialPointMeasure>
+                <WidthMeasure>1.00</WidthMeasure>
+                <DepthMeasure>2.83</DepthMeasure>
+                <AreaMeasure>2.83</AreaMeasure>
+                <DischargeMeasure>13.5</DischargeMeasure>
+                <HorizontalAngleCoefficient>1.00</HorizontalAngleCoefficient>
+                <VelocityMeasure>4.78</VelocityMeasure>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2023-05-26T08:57:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>28.0</DistanceFromInitialPointMeasure>
+                <WidthMeasure>1.00</WidthMeasure>
+                <DepthMeasure>2.31</DepthMeasure>
+                <AreaMeasure>2.31</AreaMeasure>
+                <DischargeMeasure>9.08</DischargeMeasure>
+                <HorizontalAngleCoefficient>1.00</HorizontalAngleCoefficient>
+                <VelocityMeasure>3.92</VelocityMeasure>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2023-05-26T08:58:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>29.0</DistanceFromInitialPointMeasure>
+                <WidthMeasure>1.00</WidthMeasure>
+                <DepthMeasure>2.51</DepthMeasure>
+                <AreaMeasure>2.51</AreaMeasure>
+                <DischargeMeasure>8.97</DischargeMeasure>
+                <HorizontalAngleCoefficient>1.00</HorizontalAngleCoefficient>
+                <VelocityMeasure>3.58</VelocityMeasure>
+              </MidSectionStation>
+              <MidSectionStation>
+                <DistanceFromInitialPointMeasure>30.0</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.500</WidthMeasure>
+                <DepthMeasure>2.50</DepthMeasure>
+                <AreaMeasure>1.25</AreaMeasure>
+                <DischargeMeasure>4.02</DischargeMeasure>
+                <HorizontalAngleCoefficient>1.00</HorizontalAngleCoefficient>
+                <VelocityMeasure>3.22</VelocityMeasure>
+              </MidSectionStation>
+              <GPSDeviceUsedDesc>NA</GPSDeviceUsedDesc>
+              <BoatAndMotorUsedDesc>River Pro</BoatAndMotorUsedDesc>
+              <AcousticChannelReadings>
+                <Reading>
+                  <ReadingDateTime>2023-05-26T08:45:00-06:00</ReadingDateTime>
+                  <InstrumentTemperatureMeasure>6.6</InstrumentTemperatureMeasure>
+                  <VerificationTemperatureMeasure>4.9</VerificationTemperatureMeasure>
+                  <TemperatureUnits>C</TemperatureUnits>
+                  <Comment>sc=335 2 ft from RB</Comment>
+                </Reading>
+              </AcousticChannelReadings>
+              <WinRiver_II_Section_by_Section_XML>
+                <Summary>
+                  <WinRiver_II_Section_by_Section_Summary>
+                    <Site_Name>
+                    </Site_Name>
+                    <Printed_Date>5/26/2023</Printed_Date>
+                    <Station_No>09310500</Station_No>
+                    <Air_Temp>
+                    </Air_Temp>
+                    <Water_Temp>
+                    </Water_Temp>
+                    <River_Name>
+                    </River_Name>
+                    <Location>
+                    </Location>
+                    <Date>5/26/2023</Date>
+                    <Start_End_Time>8:48:14 AM/8:59:08 AM</Start_End_Time>
+                    <Party>TCL/SSB</Party>
+                    <Software_Ver>1.16.00.08</Software_Ver>
+                    <Units_of_Measure>English</Units_of_Measure>
+                    <Meas_No>
+                    </Meas_No>
+                    <No_Stations>15</No_Stations>
+                    <Q_Method>Mid-section</Q_Method>
+                    <Vel_Method>Magnitude</Vel_Method>
+                    <Reference>ADCP</Reference>
+                    <Power_Exp>0.1667</Power_Exp>
+                    <Left_Coeff>0.900</Left_Coeff>
+                    <Right_Coeff>0.900</Right_Coeff>
+                    <Duration>40 s</Duration>
+                    <Instrument>RiverPro 1200 kHz
+</Instrument>
+                    <Firmware_Version>56.06</Firmware_Version>
+                    <Water_Mode>3</Water_Mode>
+                    <ADCP_Depth>0.230 </ADCP_Depth>
+                    <Blank>0.328 </Blank>
+                    <Num_Cells>14*</Num_Cells>
+                    <Cell_Size>0.197* </Cell_Size>
+                    <Total_Q>164</Total_Q>
+                    <Meas_Area>39.2</Meas_Area>
+                    <Mean_Vel>4.17</Mean_Vel>
+                    <Meas_Width>14.0</Meas_Width>
+                    <Max_Vel>7.16</Max_Vel>
+                    <Max_Depth>3.07</Max_Depth>
+                    <Quality_Control>3.64</Quality_Control>
+                    <Meas_Angle>0.000</Meas_Angle>
+                    <Stage>0.000</Stage>
+                    <Rated_Q>0.000</Rated_Q>
+                    <Begin_Shore>Left</Begin_Shore>
+                    <ADCP_Serial_No>1117</ADCP_Serial_No>
+                    <RawFileName>09310500_20230526.sxs.pd0</RawFileName>
+                    <ConfigFileName>09310500_20230526.sxs.mmt</ConfigFileName>
+                    <Software_Version>1.16</Software_Version>
+                    <System_Frequency>1200</System_Frequency>
+                    <Comments>
+                    </Comments>
+                    <FlowType>Normal (Power/Power)</FlowType>
+                    <FootNote>* - value not consistent for all verticals</FootNote>
+                    <ContourFile>20230526084814.png</ContourFile>
+                    <Total_Width>14.0</Total_Width>
+                    <Total_Area>39.2</Total_Area>
+                    <Total_Slush_Area>0.000</Total_Slush_Area>
+                    <TotalPerc__Slush>0.000</TotalPerc__Slush>
+                    <Total_Start_T>00:10</Total_Start_T>
+                    <Mean_Depth>2.77</Mean_Depth>
+                    <Mean_CV>20.7</Mean_CV>
+                    <Mean_Avg_V>4.17</Mean_Avg_V>
+                    <Mean_Dir_V>331</Mean_Dir_V>
+                    <Mean_ADCP_Depth>0.230</Mean_ADCP_Depth>
+                    <Mean_Solid_Ice_Thickness>0.000</Mean_Solid_Ice_Thickness>
+                    <Mean_WS_Btm_Of_Ice>0.000</Mean_WS_Btm_Of_Ice>
+                    <Mean_WS_Btm_Of_Slush>0.000</Mean_WS_Btm_Of_Slush>
+                    <Mean_Meas_T>40.3</Mean_Meas_T>
+                    <Mean_Ang_Cf>1.00</Mean_Ang_Cf>
+                  </WinRiver_II_Section_by_Section_Summary>
+                  <Station id="1">
+                    <Stn_Q>2.06</Stn_Q>
+                    <Percent_Tot>1.26</Percent_Tot>
+                    <Start_T>-</Start_T>
+                    <Meas_T>0.000</Meas_T>
+                    <Percent_Good>0.000</Percent_Good>
+                    <Avg_V>2.06</Avg_V>
+                    <CV>0.000</CV>
+                    <Dir_V>0.000</Dir_V>
+                    <Dist>16.0</Dist>
+                    <Depth>2.00</Depth>
+                    <Width>0.500</Width>
+                    <Area>1.00</Area>
+                    <Ang_Cf>1.00</Ang_Cf>
+                    <ADCP_Depth>0.000</ADCP_Depth>
+                    <WS_Btm_Of_Slush>0.000</WS_Btm_Of_Slush>
+                    <WS_Btm_Of_Ice>0.000</WS_Btm_Of_Ice>
+                    <Solid_Ice_Thickness>0.000</Solid_Ice_Thickness>
+                    <Slush_Area>0.000</Slush_Area>
+                    <Perc_Slush>0.000</Perc_Slush>
+                  </Station>
+                  <Station id="2">
+                    <Stn_Q>6.15</Stn_Q>
+                    <Percent_Tot>3.76</Percent_Tot>
+                    <Start_T>08:48</Start_T>
+                    <Meas_T>40.3</Meas_T>
+                    <Percent_Good>100</Percent_Good>
+                    <Avg_V>2.29</Avg_V>
+                    <CV>20.6</CV>
+                    <Dir_V>322</Dir_V>
+                    <Dist>17.0</Dist>
+                    <Depth>2.68</Depth>
+                    <Width>1.00</Width>
+                    <Area>2.68</Area>
+                    <Ang_Cf>1.00</Ang_Cf>
+                    <ADCP_Depth>0.230</ADCP_Depth>
+                    <WS_Btm_Of_Slush>0.000</WS_Btm_Of_Slush>
+                    <WS_Btm_Of_Ice>0.000</WS_Btm_Of_Ice>
+                    <Solid_Ice_Thickness>0.000</Solid_Ice_Thickness>
+                    <Slush_Area>0.000</Slush_Area>
+                    <Perc_Slush>0.000</Perc_Slush>
+                  </Station>
+                  <Station id="3">
+                    <Stn_Q>7.83</Stn_Q>
+                    <Percent_Tot>4.79</Percent_Tot>
+                    <Start_T>08:49</Start_T>
+                    <Meas_T>40.5</Meas_T>
+                    <Percent_Good>100</Percent_Good>
+                    <Avg_V>2.89</Avg_V>
+                    <CV>20.2</CV>
+                    <Dir_V>327</Dir_V>
+                    <Dist>18.0</Dist>
+                    <Depth>2.70</Depth>
+                    <Width>1.00</Width>
+                    <Area>2.70</Area>
+                    <Ang_Cf>1.00</Ang_Cf>
+                    <ADCP_Depth>0.230</ADCP_Depth>
+                    <WS_Btm_Of_Slush>0.000</WS_Btm_Of_Slush>
+                    <WS_Btm_Of_Ice>0.000</WS_Btm_Of_Ice>
+                    <Solid_Ice_Thickness>0.000</Solid_Ice_Thickness>
+                    <Slush_Area>0.000</Slush_Area>
+                    <Perc_Slush>0.000</Perc_Slush>
+                  </Station>
+                  <Station id="4">
+                    <Stn_Q>9.42</Stn_Q>
+                    <Percent_Tot>5.76</Percent_Tot>
+                    <Start_T>08:49</Start_T>
+                    <Meas_T>40.0</Meas_T>
+                    <Percent_Good>100</Percent_Good>
+                    <Avg_V>3.31</Avg_V>
+                    <CV>22.9</CV>
+                    <Dir_V>327</Dir_V>
+                    <Dist>19.0</Dist>
+                    <Depth>2.85</Depth>
+                    <Width>1.00</Width>
+                    <Area>2.85</Area>
+                    <Ang_Cf>1.00</Ang_Cf>
+                    <ADCP_Depth>0.230</ADCP_Depth>
+                    <WS_Btm_Of_Slush>0.000</WS_Btm_Of_Slush>
+                    <WS_Btm_Of_Ice>0.000</WS_Btm_Of_Ice>
+                    <Solid_Ice_Thickness>0.000</Solid_Ice_Thickness>
+                    <Slush_Area>0.000</Slush_Area>
+                    <Perc_Slush>0.000</Perc_Slush>
+                  </Station>
+                  <Station id="5">
+                    <Stn_Q>10.6</Stn_Q>
+                    <Percent_Tot>6.45</Percent_Tot>
+                    <Start_T>08:50</Start_T>
+                    <Meas_T>40.2</Meas_T>
+                    <Percent_Good>100</Percent_Good>
+                    <Avg_V>3.59</Avg_V>
+                    <CV>19.8</CV>
+                    <Dir_V>327</Dir_V>
+                    <Dist>20.0</Dist>
+                    <Depth>2.94</Depth>
+                    <Width>1.00</Width>
+                    <Area>2.94</Area>
+                    <Ang_Cf>1.00</Ang_Cf>
+                    <ADCP_Depth>0.230</ADCP_Depth>
+                    <WS_Btm_Of_Slush>0.000</WS_Btm_Of_Slush>
+                    <WS_Btm_Of_Ice>0.000</WS_Btm_Of_Ice>
+                    <Solid_Ice_Thickness>0.000</Solid_Ice_Thickness>
+                    <Slush_Area>0.000</Slush_Area>
+                    <Perc_Slush>0.000</Perc_Slush>
+                  </Station>
+                  <Station id="6">
+                    <Stn_Q>13.3</Stn_Q>
+                    <Percent_Tot>8.11</Percent_Tot>
+                    <Start_T>08:51</Start_T>
+                    <Meas_T>40.6</Meas_T>
+                    <Percent_Good>100</Percent_Good>
+                    <Avg_V>4.42</Avg_V>
+                    <CV>15.4</CV>
+                    <Dir_V>326</Dir_V>
+                    <Dist>21.0</Dist>
+                    <Depth>3.00</Depth>
+                    <Width>1.00</Width>
+                    <Area>3.00</Area>
+                    <Ang_Cf>1.00</Ang_Cf>
+                    <ADCP_Depth>0.230</ADCP_Depth>
+                    <WS_Btm_Of_Slush>0.000</WS_Btm_Of_Slush>
+                    <WS_Btm_Of_Ice>0.000</WS_Btm_Of_Ice>
+                    <Solid_Ice_Thickness>0.000</Solid_Ice_Thickness>
+                    <Slush_Area>0.000</Slush_Area>
+                    <Perc_Slush>0.000</Perc_Slush>
+                  </Station>
+                  <Station id="7">
+                    <Stn_Q>14.5</Stn_Q>
+                    <Percent_Tot>8.84</Percent_Tot>
+                    <Start_T>08:52</Start_T>
+                    <Meas_T>40.1</Meas_T>
+                    <Percent_Good>100</Percent_Good>
+                    <Avg_V>4.71</Avg_V>
+                    <CV>16.7</CV>
+                    <Dir_V>327</Dir_V>
+                    <Dist>22.0</Dist>
+                    <Depth>3.07</Depth>
+                    <Width>1.00</Width>
+                    <Area>3.07</Area>
+                    <Ang_Cf>1.00</Ang_Cf>
+                    <ADCP_Depth>0.230</ADCP_Depth>
+                    <WS_Btm_Of_Slush>0.000</WS_Btm_Of_Slush>
+                    <WS_Btm_Of_Ice>0.000</WS_Btm_Of_Ice>
+                    <Solid_Ice_Thickness>0.000</Solid_Ice_Thickness>
+                    <Slush_Area>0.000</Slush_Area>
+                    <Perc_Slush>0.000</Perc_Slush>
+                  </Station>
+                  <Station id="8">
+                    <Stn_Q>15.4</Stn_Q>
+                    <Percent_Tot>9.38</Percent_Tot>
+                    <Start_T>08:53</Start_T>
+                    <Meas_T>40.3</Meas_T>
+                    <Percent_Good>100</Percent_Good>
+                    <Avg_V>5.11</Avg_V>
+                    <CV>17.3</CV>
+                    <Dir_V>329</Dir_V>
+                    <Dist>23.0</Dist>
+                    <Depth>3.01</Depth>
+                    <Width>1.00</Width>
+                    <Area>3.01</Area>
+                    <Ang_Cf>1.00</Ang_Cf>
+                    <ADCP_Depth>0.230</ADCP_Depth>
+                    <WS_Btm_Of_Slush>0.000</WS_Btm_Of_Slush>
+                    <WS_Btm_Of_Ice>0.000</WS_Btm_Of_Ice>
+                    <Solid_Ice_Thickness>0.000</Solid_Ice_Thickness>
+                    <Slush_Area>0.000</Slush_Area>
+                    <Perc_Slush>0.000</Perc_Slush>
+                  </Station>
+                  <Station id="9">
+                    <Stn_Q>15.7</Stn_Q>
+                    <Percent_Tot>9.58</Percent_Tot>
+                    <Start_T>08:53</Start_T>
+                    <Meas_T>40.1</Meas_T>
+                    <Percent_Good>93.8</Percent_Good>
+                    <Avg_V>5.18</Avg_V>
+                    <CV>17.4</CV>
+                    <Dir_V>332</Dir_V>
+                    <Dist>24.0</Dist>
+                    <Depth>3.03</Depth>
+                    <Width>1.00</Width>
+                    <Area>3.03</Area>
+                    <Ang_Cf>1.00</Ang_Cf>
+                    <ADCP_Depth>0.230</ADCP_Depth>
+                    <WS_Btm_Of_Slush>0.000</WS_Btm_Of_Slush>
+                    <WS_Btm_Of_Ice>0.000</WS_Btm_Of_Ice>
+                    <Solid_Ice_Thickness>0.000</Solid_Ice_Thickness>
+                    <Slush_Area>0.000</Slush_Area>
+                    <Perc_Slush>0.000</Perc_Slush>
+                  </Station>
+                  <Station id="10">
+                    <Stn_Q>17.2</Stn_Q>
+                    <Percent_Tot>10.5</Percent_Tot>
+                    <Start_T>08:54</Start_T>
+                    <Meas_T>40.1</Meas_T>
+                    <Percent_Good>92.4</Percent_Good>
+                    <Avg_V>5.61</Avg_V>
+                    <CV>16.3</CV>
+                    <Dir_V>337</Dir_V>
+                    <Dist>25.0</Dist>
+                    <Depth>3.06</Depth>
+                    <Width>1.00</Width>
+                    <Area>3.06</Area>
+                    <Ang_Cf>1.00</Ang_Cf>
+                    <ADCP_Depth>0.230</ADCP_Depth>
+                    <WS_Btm_Of_Slush>0.000</WS_Btm_Of_Slush>
+                    <WS_Btm_Of_Ice>0.000</WS_Btm_Of_Ice>
+                    <Solid_Ice_Thickness>0.000</Solid_Ice_Thickness>
+                    <Slush_Area>0.000</Slush_Area>
+                    <Perc_Slush>0.000</Perc_Slush>
+                  </Station>
+                  <Station id="11">
+                    <Stn_Q>16.1</Stn_Q>
+                    <Percent_Tot>9.82</Percent_Tot>
+                    <Start_T>08:55</Start_T>
+                    <Meas_T>40.5</Meas_T>
+                    <Percent_Good>95.5</Percent_Good>
+                    <Avg_V>5.37</Avg_V>
+                    <CV>20.9</CV>
+                    <Dir_V>336</Dir_V>
+                    <Dist>26.0</Dist>
+                    <Depth>2.99</Depth>
+                    <Width>1.00</Width>
+                    <Area>2.99</Area>
+                    <Ang_Cf>1.00</Ang_Cf>
+                    <ADCP_Depth>0.230</ADCP_Depth>
+                    <WS_Btm_Of_Slush>0.000</WS_Btm_Of_Slush>
+                    <WS_Btm_Of_Ice>0.000</WS_Btm_Of_Ice>
+                    <Solid_Ice_Thickness>0.000</Solid_Ice_Thickness>
+                    <Slush_Area>0.000</Slush_Area>
+                    <Perc_Slush>0.000</Perc_Slush>
+                  </Station>
+                  <Station id="12">
+                    <Stn_Q>13.5</Stn_Q>
+                    <Percent_Tot>8.26</Percent_Tot>
+                    <Start_T>08:56</Start_T>
+                    <Meas_T>40.6</Meas_T>
+                    <Percent_Good>94.0</Percent_Good>
+                    <Avg_V>4.78</Avg_V>
+                    <CV>21.8</CV>
+                    <Dir_V>333</Dir_V>
+                    <Dist>27.0</Dist>
+                    <Depth>2.83</Depth>
+                    <Width>1.00</Width>
+                    <Area>2.83</Area>
+                    <Ang_Cf>1.00</Ang_Cf>
+                    <ADCP_Depth>0.230</ADCP_Depth>
+                    <WS_Btm_Of_Slush>0.000</WS_Btm_Of_Slush>
+                    <WS_Btm_Of_Ice>0.000</WS_Btm_Of_Ice>
+                    <Solid_Ice_Thickness>0.000</Solid_Ice_Thickness>
+                    <Slush_Area>0.000</Slush_Area>
+                    <Perc_Slush>0.000</Perc_Slush>
+                  </Station>
+                  <Station id="13">
+                    <Stn_Q>9.08</Stn_Q>
+                    <Percent_Tot>5.55</Percent_Tot>
+                    <Start_T>08:57</Start_T>
+                    <Meas_T>40.4</Meas_T>
+                    <Percent_Good>100</Percent_Good>
+                    <Avg_V>3.92</Avg_V>
+                    <CV>31.2</CV>
+                    <Dir_V>339</Dir_V>
+                    <Dist>28.0</Dist>
+                    <Depth>2.31</Depth>
+                    <Width>1.00</Width>
+                    <Area>2.31</Area>
+                    <Ang_Cf>1.00</Ang_Cf>
+                    <ADCP_Depth>0.230</ADCP_Depth>
+                    <WS_Btm_Of_Slush>0.000</WS_Btm_Of_Slush>
+                    <WS_Btm_Of_Ice>0.000</WS_Btm_Of_Ice>
+                    <Solid_Ice_Thickness>0.000</Solid_Ice_Thickness>
+                    <Slush_Area>0.000</Slush_Area>
+                    <Perc_Slush>0.000</Perc_Slush>
+                  </Station>
+                  <Station id="14">
+                    <Stn_Q>8.97</Stn_Q>
+                    <Percent_Tot>5.48</Percent_Tot>
+                    <Start_T>08:58</Start_T>
+                    <Meas_T>40.2</Meas_T>
+                    <Percent_Good>94.1</Percent_Good>
+                    <Avg_V>3.58</Avg_V>
+                    <CV>29.1</CV>
+                    <Dir_V>340</Dir_V>
+                    <Dist>29.0</Dist>
+                    <Depth>2.51</Depth>
+                    <Width>1.00</Width>
+                    <Area>2.51</Area>
+                    <Ang_Cf>1.00</Ang_Cf>
+                    <ADCP_Depth>0.230</ADCP_Depth>
+                    <WS_Btm_Of_Slush>0.000</WS_Btm_Of_Slush>
+                    <WS_Btm_Of_Ice>0.000</WS_Btm_Of_Ice>
+                    <Solid_Ice_Thickness>0.000</Solid_Ice_Thickness>
+                    <Slush_Area>0.000</Slush_Area>
+                    <Perc_Slush>0.000</Perc_Slush>
+                  </Station>
+                  <Station id="15">
+                    <Stn_Q>4.02</Stn_Q>
+                    <Percent_Tot>2.46</Percent_Tot>
+                    <Start_T>-</Start_T>
+                    <Meas_T>0.000</Meas_T>
+                    <Percent_Good>0.000</Percent_Good>
+                    <Avg_V>3.22</Avg_V>
+                    <CV>0.000</CV>
+                    <Dir_V>0.000</Dir_V>
+                    <Dist>30.0</Dist>
+                    <Depth>2.50</Depth>
+                    <Width>0.500</Width>
+                    <Area>1.25</Area>
+                    <Ang_Cf>1.00</Ang_Cf>
+                    <ADCP_Depth>0.000</ADCP_Depth>
+                    <WS_Btm_Of_Slush>0.000</WS_Btm_Of_Slush>
+                    <WS_Btm_Of_Ice>0.000</WS_Btm_Of_Ice>
+                    <Solid_Ice_Thickness>0.000</Solid_Ice_Thickness>
+                    <Slush_Area>0.000</Slush_Area>
+                    <Perc_Slush>0.000</Perc_Slush>
+                  </Station>
+                </Summary>
+              </WinRiver_II_Section_by_Section_XML>
+            </MidSectionDischargeMeasurement>
+            <PreStagedChannel>false</PreStagedChannel>
+          </Channel>
+          <MeasurementRemarks>fair due to high % sections .</MeasurementRemarks>
+        </DischargeMeasurement>
+        <StreamFlowControlInspection>
+          <ControlCode description="Combined chan/sect">CMBN</ControlCode>
+          <ConditionCode description="Clear">CLER</ConditionCode>
+          <DistanceToGageMeasure>20</DistanceToGageMeasure>
+          <ControlCleanedCode description="NO">NTCL</ControlCleanedCode>
+          <Comment>slight constriction / channel. Fence 300 ft DS  might be backing up some water.</Comment>
+        </StreamFlowControlInspection>
+        <SensorInspection>
+          <LocationSensor>
+            <Location>
+              <LocationName />
+            </Location>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <IdentifierForAQUARIUS>HG</IdentifierForAQUARIUS>
+                  <Name>Gage height</Name>
+                  <Units>ft</Units>
+                </Parameter>
+                <MethodCode>HGSTAFF</MethodCode>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+              </SensorType>
+              <SerialNumber>Unspecified (Staff)</SerialNumber>
+              <SensorName>Staff</SensorName>
+              <HIFEquipmentID>Unspecified</HIFEquipmentID>
+            </Sensor>
+          </LocationSensor>
+          <SensorReading>
+            <ReadingDateTime>2023-05-26T08:35:00-06:00</ReadingDateTime>
+            <SensorMeasure readingType="Reference - Primary" publish="true">4.020</SensorMeasure>
+            <MeasureAccuracy>.1</MeasureAccuracy>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+            <MeasurementValueRead>-0.45</MeasurementValueRead>
+            <MeasuringPointElevation>4.470</MeasuringPointElevation>
+            <UniqueId>518967ef-6544-436e-9552-9660aa70f3c2</UniqueId>
+            <SensorReadingDetail>
+              <IsMeasuredAgainstLocalAssumedDatum>true</IsMeasuredAgainstLocalAssumedDatum>
+            </SensorReadingDetail>
+            <WorkflowType>Normal</WorkflowType>
+          </SensorReading>
+          <SensorReading>
+            <UniqueId>6a948410-fca7-44fd-ad69-217782ac572d</UniqueId>
+            <ReadingDateTime>2023-05-26T09:06:00-06:00</ReadingDateTime>
+            <SensorMeasure readingType="Reference - Primary" publish="true">4.000</SensorMeasure>
+            <MeasureAccuracy>.1</MeasureAccuracy>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+            <MeasurementValueRead>-0.47</MeasurementValueRead>
+            <MeasuringPointElevation>4.470</MeasuringPointElevation>
+            <SensorReadingDetail>
+              <IsMeasuredAgainstLocalAssumedDatum>true</IsMeasuredAgainstLocalAssumedDatum>
+            </SensorReadingDetail>
+            <WorkflowType>Normal</WorkflowType>
+          </SensorReading>
+        </SensorInspection>
+        <SensorInspection>
+          <BubbleGageInspection>
+            <LocationSensor>
+              <Location>
+                <LocationName />
+              </Location>
+              <Sensor>
+                <SensorType>
+                  <Parameter>
+                    <IdentifierForAQUARIUS>HG</IdentifierForAQUARIUS>
+                    <Name>Gage height</Name>
+                    <Units>ft</Units>
+                  </Parameter>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                  <MethodCode>HGNTRAN</MethodCode>
+                </SensorType>
+                <SerialNumber>Unspecified (Bubbler)</SerialNumber>
+                <SensorName>Bubbler</SensorName>
+                <HIFEquipmentID>Unspecified</HIFEquipmentID>
+              </Sensor>
+            </LocationSensor>
+          </BubbleGageInspection>
+          <SensorReading>
+            <UniqueId>5a58f50f-5ecf-4166-a3f4-f385b67ba550</UniqueId>
+            <ReadingDateTime>2023-05-26T08:35:00-06:00</ReadingDateTime>
+            <SensorMeasure readingType="Routine" publish="true">4.00</SensorMeasure>
+            <MeasureAccuracy>.04</MeasureAccuracy>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+            <SensorReadingDetail>
+              <IsMeasuredAgainstLocalAssumedDatum>true</IsMeasuredAgainstLocalAssumedDatum>
+            </SensorReadingDetail>
+            <WorkflowType>Normal</WorkflowType>
+          </SensorReading>
+          <SensorReading>
+            <UniqueId>3e97dae3-36cb-4c93-adb7-cfb453546bcc</UniqueId>
+            <ReadingDateTime>2023-05-26T09:06:00-06:00</ReadingDateTime>
+            <SensorMeasure readingType="Routine" publish="true">3.95</SensorMeasure>
+            <MeasureAccuracy>.04</MeasureAccuracy>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+            <SensorReadingDetail>
+              <IsMeasuredAgainstLocalAssumedDatum>true</IsMeasuredAgainstLocalAssumedDatum>
+            </SensorReadingDetail>
+            <WorkflowType>Normal</WorkflowType>
+          </SensorReading>
+        </SensorInspection>
+        <StationLevelsStatus>Not Started</StationLevelsStatus>
+        <QWMonMaintStatus>Not Started</QWMonMaintStatus>
+        <GroundwaterLevelsStatus>Not Started</GroundwaterLevelsStatus>
+        <CrossSectionIndicator>false</CrossSectionIndicator>
+        <WQXSectionStatus>Not Started</WQXSectionStatus>
+      </SiteVisit>
+    </SiteData>
+  </Site>
+  <SVMobileSiteSensors>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <ParameterId>HG</ParameterId>
+      <Name>CSG</Name>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGCSG</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>CrestStageCageInspection</SpecialInspType>
+      <Comment>pin</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <ParameterId>HG</ParameterId>
+      <Name>Bubbler</Name>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGNTRAN</MethodCode>
+      <DefaultReadingType>Routine</DefaultReadingType>
+      <DefaultAccuracy>.01</DefaultAccuracy>
+      <ShowInQuickEntry>True</ShowInQuickEntry>
+      <SpecialInspType>BubbleGageInspection</SpecialInspType>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <ParameterId>HG</ParameterId>
+      <Name>Staff</Name>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGSTAFF</MethodCode>
+      <DefaultReadingType>Reference - Primary</DefaultReadingType>
+      <DefaultAccuracy>.01</DefaultAccuracy>
+      <ShowInQuickEntry>True</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+      <Comment>from data migration</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <ParameterId>HG</ParameterId>
+      <Name>RP</Name>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGDWL</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+    </LocationSensor>
+  </SVMobileSiteSensors>
+</UsgsHydroML>

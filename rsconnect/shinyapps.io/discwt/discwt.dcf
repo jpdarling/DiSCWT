@@ -1,0 +1,10 @@
+name: discwt
+title:
+username: discwt
+account: discwt
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13642088
+bundleId: 9585866
+url: https://discwt.shinyapps.io/discwt/
+version: 1

@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="http://water.usgs.gov/XML/AQ/stylesheets/AQSVMobile_SS1.xsl"?>
+<UsgsHydroML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://water.usgs.gov/XML/AQ http://water.usgs.gov/XML/AQ/schema/UsgsHydroML.xsd" xmlns="http://water.usgs.gov/XML/AQ">
+  <Version>AQUARIUS</Version>
+  <Source>
+    <SoftwareName>SVMobile-AQ</SoftwareName>
+    <SoftwareVersionText>2.7.151.0</SoftwareVersionText>
+    <RemarksText />
+    <EmailAddress />
+    <CompDomain>gs.doi.net</CompDomain>
+  </Source>
+  <UnitsFamily>English</UnitsFamily>
+  <Site>
+    <SiteIdentifier organizationCode="USGS">09185100</SiteIdentifier>
+    <Name>MILL CREEK BLW PACK CREEK NR MOUTH AT MOAB, UT</Name>
+    <SiteData>
+      <SiteVisit>
+        <TimeRules>
+          <TimeZoneStandardName>Mountain Standard Time</TimeZoneStandardName>
+          <TimeZoneWinID>Mountain Standard Time</TimeZoneWinID>
+          <TimeDatumCode>MST</TimeDatumCode>
+          <AdjustForDayLightSavings>true</AdjustForDayLightSavings>
+          <TimeZoneBaseUTCOffset>-07:00</TimeZoneBaseUTCOffset>
+        </TimeRules>
+        <StartDateTime timeDatumCode="MST">2024-12-10T13:51:00-07:00</StartDateTime>
+        <EndDateTime>2024-12-10T14:35:00-07:00</EndDateTime>
+        <PartyText>jpd</PartyText>
+        <CollectionAgencyCode>USGS</CollectionAgencyCode>
+        <WeatherDescription>clear, cool, no precip, calm winds</WeatherDescription>
+        <RecorderRecordRemovedIndicator>false</RecorderRecordRemovedIndicator>
+        <WaterQualitySampleIndicator>false</WaterQualitySampleIndicator>
+        <SedimentSampleIndicator>false</SedimentSampleIndicator>
+        <BiologicalSampleIndicator>false</BiologicalSampleIndicator>
+        <OtherSampleIndicator>false</OtherSampleIndicator>
+        <LevelsRunIndicator>false</LevelsRunIndicator>
+        <GwWaterLevelsIndicator>false</GwWaterLevelsIndicator>
+        <SafetyInspectionPerformedIndicator>false</SafetyInspectionPerformedIndicator>
+        <Comment>routine visit. no new hwms.</Comment>
+        <DischargeMeasurementStatus>Started</DischargeMeasurementStatus>
+        <EnvironmentalMeasurementsStatus />
+        <StreamFlowControlInspectionStatus>Started</StreamFlowControlInspectionStatus>
+        <SensorInspectionStatus>Started</SensorInspectionStatus>
+        <StreamZeroFlowInspectionStatus>Started</StreamZeroFlowInspectionStatus>
+        <HighWaterMarkObservationStatus>Not Started</HighWaterMarkObservationStatus>
+        <StillingWellInspectionStatus />
+        <MiscSiteVisitInfoStatus>Not Started</MiscSiteVisitInfoStatus>
+        <DataAgingCode>500</DataAgingCode>
+        <DischargeMeasurement>
+          <MeasurementNumber>104</MeasurementNumber>
+          <DischargeDateTime>2024-12-10T14:17:45-07:00</DischargeDateTime>
+          <StartDateTime>2024-12-10T14:04:31-07:00</StartDateTime>
+          <EndDateTime>2024-12-10T14:30:59-07:00</EndDateTime>
+          <ReasonFor>Routine</ReasonFor>
+          <ShowInRatingDevelopment>true</ShowInRatingDevelopment>
+          <AddToTimeSeries>true</AddToTimeSeries>
+          <Publish>true</Publish>
+          <MeasurementQualityCode description="Fair (8%)">FAIR</MeasurementQualityCode>
+          <DischargeCode description="Measured">MEAS</DischargeCode>
+          <DischargeMeasure uncertainty="7.90" uncertaintyCode="IVE 2-Sigma">7.459</DischargeMeasure>
+          <RatingNumberUsed>5.0</RatingNumberUsed>
+          <ReferenceGageHeightUsed>3.61</ReferenceGageHeightUsed>
+          <ShiftedRatingDischarge>5.53</ShiftedRatingDischarge>
+          <ShiftedRatingPercentDifference>34.9</ShiftedRatingPercentDifference>
+          <UnshiftedRatingDischarge>1.01</UnshiftedRatingDischarge>
+          <UnshiftedRatingPercentDifference>638.5</UnshiftedRatingPercentDifference>
+          <StageMeasure>3.61</StageMeasure>
+          <StageDifferenceMeasure>0.02</StageDifferenceMeasure>
+          <StageDifferenceDurationMeasure />
+          <BaseFlowCode description="Base flow">BASE</BaseFlowCode>
+          <Comment>soft bottom, some sections &gt;5 , shift due to unstable control.</Comment>
+          <Channel>
+            <ChannelNumber>1</ChannelNumber>
+            <ChannelName>main</ChannelName>
+            <DischargeMeasure uncertainty="7.90" uncertaintyCode="IVE 2-Sigma">7.459</DischargeMeasure>
+            <DeploymentMethodCode description="Wading">WADE</DeploymentMethodCode>
+            <MeasurementMethodCode description="Midsection">QMIDSECTION</MeasurementMethodCode>
+            <VelocityMethodCode description="ADV">WVADVM</VelocityMethodCode>
+            <ChannelMaterialCode description="sand">SAND</ChannelMaterialCode>
+            <ChannelStabilityCode description="soft">SOFT</ChannelStabilityCode>
+            <ChannelEvennessCode description="even">EVEN</ChannelEvennessCode>
+            <HorizontalFlowCode description="Even">EVEN</HorizontalFlowCode>
+            <VerticalVelocityDistributionCode description="unknown">UNKN</VerticalVelocityDistributionCode>
+            <VelocityVariation description="steady">STDY</VelocityVariation>
+            <SectionLocationCode description="Downstream">DNST</SectionLocationCode>
+            <SectionDistanceMeasure>20</SectionDistanceMeasure>
+            <MidSectionDischargeMeasurement>
+              <StartPointCode description="Left edge of water">LEW</StartPointCode>
+              <SummaryOnly>true</SummaryOnly>
+              <AcousticDopplerVelocitySensor>
+                <SensorType>
+                  <Parameter>
+                    <Name>Stream velocity</Name>
+                    <Units>ft/s</Units>
+                  </Parameter>
+                  <MethodCode description="ADV">WVADVM</MethodCode>
+                  <ManufacturerName>unspecified 00055</ManufacturerName>
+                  <ModelNumber>unspecified WVADVM</ModelNumber>
+                </SensorType>
+                <SerialNumber>FT2P2231021</SerialNumber>
+              </AcousticDopplerVelocitySensor>
+              <SuspensionCode description="Top-setting wading rod">TROD</SuspensionCode>
+              <InspectedBeforeIndicator>true</InspectedBeforeIndicator>
+              <InspectedAfterIndicator>true</InspectedAfterIndicator>
+              <AreaMeasure>9.8760</AreaMeasure>
+              <WidthMeasure>18.1000</WidthMeasure>
+              <MeanVelocityMeasure>0.7553</MeanVelocityMeasure>
+              <NumberSectionsMeasure>25</NumberSectionsMeasure>
+              <MeanObservationDuration>40</MeanObservationDuration>
+              <VelocityObservationCode description=".6 depth">.6D</VelocityObservationCode>
+              <HorizontalAngleIndicator>false</HorizontalAngleIndicator>
+              <MethodCoefficientIndicator>false</MethodCoefficientIndicator>
+              <SuspensionCoefficientIndicator>false</SuspensionCoefficientIndicator>
+              <InstrumentTimeSynchronized description="YES">true</InstrumentTimeSynchronized>
+              <InstrumentTimeSynchronizedDateTime>2024-12-10T14:03:00-07:00</InstrumentTimeSynchronizedDateTime>
+              <InstrumentTested description="YES">true</InstrumentTested>
+              <CompassCallibrationCompleted description="NO">false</CompassCallibrationCompleted>
+              <MovingBedEffected description="NO">false</MovingBedEffected>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:04:32-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>0.900</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.4000</WidthMeasure>
+                <DepthMeasure>0.350</DepthMeasure>
+                <AreaMeasure>0.1400</AreaMeasure>
+                <DischargeMeasure>0.0007</DischargeMeasure>
+                <HorizontalAngleCoefficient>0.65</HorizontalAngleCoefficient>
+                <VelocityMeasure>0.0048</VelocityMeasure>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:05:24-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>1.700</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.7000</WidthMeasure>
+                <DepthMeasure>0.500</DepthMeasure>
+                <AreaMeasure>0.3500</AreaMeasure>
+                <DischargeMeasure>0.0026</DischargeMeasure>
+                <VelocityMeasure>0.0073</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>1</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>3.2927841920843179</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>45</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.003</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.087585</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.0073</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:06:36-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>2.300</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.6500</WidthMeasure>
+                <DepthMeasure>0.570</DepthMeasure>
+                <AreaMeasure>0.3705</AreaMeasure>
+                <DischargeMeasure>0.1207</DischargeMeasure>
+                <VelocityMeasure>0.3259</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>0</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>16.494702229832345</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>34</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.011</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.087585</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.3259</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:08:00-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>3.000</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.6000</WidthMeasure>
+                <DepthMeasure>0.720</DepthMeasure>
+                <AreaMeasure>0.4320</AreaMeasure>
+                <DischargeMeasure>0.2344</DischargeMeasure>
+                <VelocityMeasure>0.5425</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>0</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>14.744789013134913</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>34</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.010</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.087585</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.5425</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:09:24-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>3.500</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.5000</WidthMeasure>
+                <DepthMeasure>0.750</DepthMeasure>
+                <AreaMeasure>0.3750</AreaMeasure>
+                <DischargeMeasure>0.2485</DischargeMeasure>
+                <VelocityMeasure>0.6627</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>2</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>6.8480718990572411</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>35</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.012</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.087585</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.6627</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:10:22-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>4.000</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.5000</WidthMeasure>
+                <DepthMeasure>0.800</DepthMeasure>
+                <AreaMeasure>0.4000</AreaMeasure>
+                <DischargeMeasure>0.2851</DischargeMeasure>
+                <VelocityMeasure>0.7127</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>1</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>6.2560395369907011</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>36</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.014</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.087585</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.7127</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:11:29-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>4.500</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.5000</WidthMeasure>
+                <DepthMeasure>0.820</DepthMeasure>
+                <AreaMeasure>0.4100</AreaMeasure>
+                <DischargeMeasure>0.3472</DischargeMeasure>
+                <VelocityMeasure>0.8469</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>0</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>10.243859976563837</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>36</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.013</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.0881477499999983</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.8469</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:12:25-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>5.000</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.5000</WidthMeasure>
+                <DepthMeasure>0.860</DepthMeasure>
+                <AreaMeasure>0.4300</AreaMeasure>
+                <DischargeMeasure>0.3457</DischargeMeasure>
+                <VelocityMeasure>0.8039</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>0</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>7.41464631171233</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>36</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.022</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.1067890375</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.8039</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:13:41-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>5.500</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.5000</WidthMeasure>
+                <DepthMeasure>0.880</DepthMeasure>
+                <AreaMeasure>0.4400</AreaMeasure>
+                <DischargeMeasure>0.3908</DischargeMeasure>
+                <VelocityMeasure>0.8882</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>1</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>1.3063402204222732</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>35</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.011</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.1264651624999984</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.8882</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:14:38-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>6.000</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.5000</WidthMeasure>
+                <DepthMeasure>0.880</DepthMeasure>
+                <AreaMeasure>0.4400</AreaMeasure>
+                <DischargeMeasure>0.3914</DischargeMeasure>
+                <VelocityMeasure>0.8895</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>1</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>6.5147599586963869</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>35</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.014</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.128693</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.8895</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:15:40-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>6.500</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.5500</WidthMeasure>
+                <DepthMeasure>0.900</DepthMeasure>
+                <AreaMeasure>0.4950</AreaMeasure>
+                <DischargeMeasure>0.4649</DischargeMeasure>
+                <VelocityMeasure>0.9392</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>2</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>4.5608588265191248</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>36</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.012</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.128693</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.9392</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:16:45-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>7.100</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.6000</WidthMeasure>
+                <DepthMeasure>0.860</DepthMeasure>
+                <AreaMeasure>0.5160</AreaMeasure>
+                <DischargeMeasure>0.5130</DischargeMeasure>
+                <VelocityMeasure>0.9943</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>0</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>2.9173570653642908</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>36</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.014</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.128693</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.9943</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:17:52-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>7.700</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.6000</WidthMeasure>
+                <DepthMeasure>0.820</DepthMeasure>
+                <AreaMeasure>0.4920</AreaMeasure>
+                <DischargeMeasure>0.4483</DischargeMeasure>
+                <VelocityMeasure>0.9112</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>1</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>6.487704612524805</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>36</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.016</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.1403955499999974</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.9112</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:18:55-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>8.300</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.6500</WidthMeasure>
+                <DepthMeasure>0.780</DepthMeasure>
+                <AreaMeasure>0.5070</AreaMeasure>
+                <DischargeMeasure>0.4578</DischargeMeasure>
+                <VelocityMeasure>0.9030</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>0</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>3.8770409877397793</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>36</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.016</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.1678720374999947</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.9030</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:20:02-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>9.000</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.7000</WidthMeasure>
+                <DepthMeasure>0.760</DepthMeasure>
+                <AreaMeasure>0.5320</AreaMeasure>
+                <DischargeMeasure>0.4856</DischargeMeasure>
+                <VelocityMeasure>0.9127</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>2</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>-3.7985832506216477</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>37</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.014</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.169739</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.9127</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:21:06-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>9.700</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.7000</WidthMeasure>
+                <DepthMeasure>0.700</DepthMeasure>
+                <AreaMeasure>0.4900</AreaMeasure>
+                <DischargeMeasure>0.4572</DischargeMeasure>
+                <VelocityMeasure>0.9331</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>1</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>-1.03893553752641</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>36</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.011</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.169739</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.9331</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:22:12-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>10.400</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.7000</WidthMeasure>
+                <DepthMeasure>0.600</DepthMeasure>
+                <AreaMeasure>0.4200</AreaMeasure>
+                <DischargeMeasure>0.3486</DischargeMeasure>
+                <VelocityMeasure>0.8299</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>1</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>-4.6167242685769851</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>36</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.013</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.1798612624999967</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.8299</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:23:17-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>11.100</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.7500</WidthMeasure>
+                <DepthMeasure>0.550</DepthMeasure>
+                <AreaMeasure>0.4125</AreaMeasure>
+                <DischargeMeasure>0.3439</DischargeMeasure>
+                <VelocityMeasure>0.8338</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>4</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>-4.1507227793523436</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>36</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.016</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.2104167624999973</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.8338</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:24:21-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>11.900</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.8000</WidthMeasure>
+                <DepthMeasure>0.500</DepthMeasure>
+                <AreaMeasure>0.4000</AreaMeasure>
+                <DischargeMeasure>0.2925</DischargeMeasure>
+                <VelocityMeasure>0.7312</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>0</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>-7.3480424712117935</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>38</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.023</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.210815</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.7312</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:25:27-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>12.700</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.8500</WidthMeasure>
+                <DepthMeasure>0.500</DepthMeasure>
+                <AreaMeasure>0.4250</AreaMeasure>
+                <DischargeMeasure>0.3425</DischargeMeasure>
+                <VelocityMeasure>0.8058</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>0</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>0.0722363016384363</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>36</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.014</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.2254744249999989</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.8058</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:26:28-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>13.600</DistanceFromInitialPointMeasure>
+                <WidthMeasure>0.9500</WidthMeasure>
+                <DepthMeasure>0.400</DepthMeasure>
+                <AreaMeasure>0.3800</AreaMeasure>
+                <DischargeMeasure>0.2893</DischargeMeasure>
+                <VelocityMeasure>0.7613</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>0</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>0.510578778460002</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>36</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.015</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.251801</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.7613</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:27:33-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>14.600</DistanceFromInitialPointMeasure>
+                <WidthMeasure>1.0000</WidthMeasure>
+                <DepthMeasure>0.300</DepthMeasure>
+                <AreaMeasure>0.3000</AreaMeasure>
+                <DischargeMeasure>0.2034</DischargeMeasure>
+                <VelocityMeasure>0.6779</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>0</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>-2.7519434156536673</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>37</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.018</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.2521614249999997</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.6779</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:28:41-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>15.600</DistanceFromInitialPointMeasure>
+                <WidthMeasure>1.1500</WidthMeasure>
+                <DepthMeasure>0.300</DepthMeasure>
+                <AreaMeasure>0.3450</AreaMeasure>
+                <DischargeMeasure>0.2093</DischargeMeasure>
+                <VelocityMeasure>0.6066</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>2</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>-3.5296704909263155</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>36</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.014</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.278461212500003</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.6066</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:29:43-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>16.900</DistanceFromInitialPointMeasure>
+                <WidthMeasure>1.7000</WidthMeasure>
+                <DepthMeasure>0.220</DepthMeasure>
+                <AreaMeasure>0.3740</AreaMeasure>
+                <DischargeMeasure>0.2361</DischargeMeasure>
+                <VelocityMeasure>0.6312</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+                <MidSectionVelocityObservation>
+                  <DepthMeasure>0.6</DepthMeasure>
+                  <NumberReadingsMeasure>80</NumberReadingsMeasure>
+                  <NumberSpikesMeasure>0</NumberSpikesMeasure>
+                  <AngleToFlowMeasure>4.0898211756065184</AngleToFlowMeasure>
+                  <SignalToNoiseRatioMeasure>34</SignalToNoiseRatioMeasure>
+                  <VelocityStandardErrorMeasure>0.011</VelocityStandardErrorMeasure>
+                  <BoundryQualityIndexMeasure>0</BoundryQualityIndexMeasure>
+                  <WaterTemperatureMeasure>3.275802287500003</WaterTemperatureMeasure>
+                  <VelocityMeasure>0.6312</VelocityMeasure>
+                </MidSectionVelocityObservation>
+              </MidSectionStation>
+              <MidSectionStation>
+                <SectionDateTime>2024-12-10T14:30:58-07:00</SectionDateTime>
+                <DistanceFromInitialPointMeasure>19.000</DistanceFromInitialPointMeasure>
+                <WidthMeasure>1.0500</WidthMeasure>
+                <DepthMeasure>0.000</DepthMeasure>
+                <AreaMeasure>0.0000</AreaMeasure>
+                <DischargeMeasure>0.0000</DischargeMeasure>
+                <VelocityMeasure>0.6312</VelocityMeasure>
+                <HorizontalAngleCoefficient>1.0</HorizontalAngleCoefficient>
+              </MidSectionStation>
+              <FlowTrackerMeanTemperature Units="DegC">3.1599106483695643</FlowTrackerMeanTemperature>
+              <AcousticChannelReadings>
+                <Reading>
+                  <ReadingDateTime>2024-12-10T14:03:00-07:00</ReadingDateTime>
+                  <InstrumentTemperatureMeasure>3.4</InstrumentTemperatureMeasure>
+                  <VerificationTemperatureMeasure>2.9</VerificationTemperatureMeasure>
+                  <TemperatureUnits>C</TemperatureUnits>
+                  <Comment>sc = 747 uS/cm 1 ft from lew 0.3 ft depth</Comment>
+                </Reading>
+              </AcousticChannelReadings>
+            </MidSectionDischargeMeasurement>
+          </Channel>
+          <MeasurementRemarks>soft bottom, some sections &gt;5 , shift due to unstable control.</MeasurementRemarks>
+        </DischargeMeasurement>
+        <StreamFlowControlInspection>
+          <ControlCode description="Section">SECT</ControlCode>
+          <ConditionCode description="Clear">CLER</ConditionCode>
+          <DistanceToGageMeasure>40</DistanceToGageMeasure>
+          <ControlCleanedCode description="NO">NTCL</ControlCleanedCode>
+          <Comment>riffle control about 40 ft ds , mostly clear, some flood debris piled near right side of riffle</Comment>
+        </StreamFlowControlInspection>
+        <StreamZeroFlowInspection>
+          <InspectionDateTime>2024-12-10T14:34:00-07:00</InspectionDateTime>
+          <GageHeightZeroFlowMeasure readingType="Extreme - Min">2.87</GageHeightZeroFlowMeasure>
+          <GageHeightZeroFlowAccuracy>0.5</GageHeightZeroFlowAccuracy>
+          <DepthWaterMeasure>0.75</DepthWaterMeasure>
+          <StreamStageMeasure readingType="Extreme - Max">3.62</StreamStageMeasure>
+          <Comment>thalweg of riffle control</Comment>
+        </StreamZeroFlowInspection>
+        <SensorInspection>
+          <BubbleGageInspection>
+            <LocationSensor>
+              <Location>
+                <LocationName />
+              </Location>
+              <Sensor>
+                <SensorType>
+                  <Parameter>
+                    <IdentifierForAQUARIUS>HG</IdentifierForAQUARIUS>
+                    <Name>Gage height</Name>
+                    <Units>ft</Units>
+                  </Parameter>
+                  <MethodCode>HGNTRAN</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified (Bubbler)</SerialNumber>
+                <SensorName>Bubbler</SensorName>
+                <HIFEquipmentID>Unspecified</HIFEquipmentID>
+              </Sensor>
+            </LocationSensor>
+          </BubbleGageInspection>
+          <SensorReading>
+            <ReadingDateTime>2024-12-10T13:52:00-07:00</ReadingDateTime>
+            <SensorMeasure readingType="Routine" publish="true">3.60</SensorMeasure>
+            <MeasureAccuracy>0.01</MeasureAccuracy>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+            <UniqueId>94cc9e74-b154-4ce0-9a20-5f2d14d6d103</UniqueId>
+            <SensorReadingDetail>
+              <IsMeasuredAgainstLocalAssumedDatum>true</IsMeasuredAgainstLocalAssumedDatum>
+            </SensorReadingDetail>
+            <WorkflowType>Normal</WorkflowType>
+          </SensorReading>
+          <SensorReading>
+            <UniqueId>48f36d45-f556-4858-b2d5-4dc5c496b1dd</UniqueId>
+            <ReadingDateTime>2024-12-10T14:32:00-07:00</ReadingDateTime>
+            <SensorMeasure readingType="Routine" publish="true">3.62</SensorMeasure>
+            <MeasureAccuracy>0.01</MeasureAccuracy>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+            <SensorReadingDetail>
+              <IsMeasuredAgainstLocalAssumedDatum>true</IsMeasuredAgainstLocalAssumedDatum>
+            </SensorReadingDetail>
+            <WorkflowType>Normal</WorkflowType>
+          </SensorReading>
+        </SensorInspection>
+        <SensorInspection>
+          <LocationSensor>
+            <Location>
+              <LocationName />
+            </Location>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <IdentifierForAQUARIUS>HG</IdentifierForAQUARIUS>
+                  <Name>Gage height</Name>
+                  <Units>ft</Units>
+                </Parameter>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+                <MethodCode>HGDWL</MethodCode>
+              </SensorType>
+              <SerialNumber>Unspecified (RP)</SerialNumber>
+              <SensorName>RP</SensorName>
+              <HIFEquipmentID>Unspecified</HIFEquipmentID>
+            </Sensor>
+          </LocationSensor>
+          <SensorReading>
+            <UniqueId>f5440093-7f6e-4904-a2fc-6357639e14a8</UniqueId>
+            <ReadingDateTime>2024-12-10T13:52:00-07:00</ReadingDateTime>
+            <SensorMeasure readingType="Reference" publish="true">3.603</SensorMeasure>
+            <MeasureAccuracy>0.03</MeasureAccuracy>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+            <MeasurementValueRead>-0.80</MeasurementValueRead>
+            <MeasuringPointElevation>4.403</MeasuringPointElevation>
+            <SensorReadingDetail>
+              <IsMeasuredAgainstLocalAssumedDatum>true</IsMeasuredAgainstLocalAssumedDatum>
+            </SensorReadingDetail>
+            <WorkflowType>Normal</WorkflowType>
+          </SensorReading>
+          <SensorReading>
+            <UniqueId>477deb7e-ff6d-43a7-ac7f-7c7d341127b0</UniqueId>
+            <ReadingDateTime>2024-12-10T14:32:00-07:00</ReadingDateTime>
+            <SensorMeasure readingType="Reference" publish="true">3.623</SensorMeasure>
+            <MeasureAccuracy>0.03</MeasureAccuracy>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+            <MeasurementValueRead>-0.78</MeasurementValueRead>
+            <MeasuringPointElevation>4.403</MeasuringPointElevation>
+            <SensorReadingDetail>
+              <IsMeasuredAgainstLocalAssumedDatum>true</IsMeasuredAgainstLocalAssumedDatum>
+            </SensorReadingDetail>
+            <WorkflowType>Normal</WorkflowType>
+          </SensorReading>
+        </SensorInspection>
+        <SensorInspection>
+          <LocationSensor>
+            <Location>
+              <LocationName />
+            </Location>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <IdentifierForAQUARIUS>TW</IdentifierForAQUARIUS>
+                  <Name>Temperature, water</Name>
+                  <Units>degC</Units>
+                </Parameter>
+                <ManufacturerName>SonTek</ManufacturerName>
+                <ModelNumber>FlowTracker II</ModelNumber>
+                <MethodCode>TWTHM01</MethodCode>
+              </SensorType>
+              <SerialNumber>FT2P2231021 (ADCP Internal Thermistor)</SerialNumber>
+              <SensorName>ADCP Internal Thermistor</SensorName>
+              <HIFEquipmentID>Unspecified</HIFEquipmentID>
+            </Sensor>
+          </LocationSensor>
+          <SensorReading>
+            <ReadingDateTime>2024-12-10T14:17:45-07:00</ReadingDateTime>
+            <SensorMeasure readingType="Routine" publish="false">3.16</SensorMeasure>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+            <ReadingQualifier>CrossSectionAreaWeightedMean</ReadingQualifier>
+            <WorkflowType>ADCPTemperatureReading</WorkflowType>
+          </SensorReading>
+        </SensorInspection>
+        <StationLevelsStatus>Not Started</StationLevelsStatus>
+        <QWMonMaintStatus>Not Started</QWMonMaintStatus>
+        <GroundwaterLevelsStatus>Not Started</GroundwaterLevelsStatus>
+        <WQXSectionStatus>Not Started</WQXSectionStatus>
+        <WQVProfileStatus />
+        <SafetyInspectionStatus>Not Started</SafetyInspectionStatus>
+        <CrossSectionIndicator>false</CrossSectionIndicator>
+      </SiteVisit>
+    </SiteData>
+  </Site>
+  <SVMobileSiteSensors>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <ParameterId>HG</ParameterId>
+      <Name>CSG</Name>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGCSG</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <ParameterId>HG</ParameterId>
+      <Name>Bubbler</Name>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGNTRAN</MethodCode>
+      <DefaultReadingType>Routine</DefaultReadingType>
+      <DefaultAccuracy>0.01</DefaultAccuracy>
+      <ShowInQuickEntry>True</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+      <Comment>FTS bubbler w orifice ans std cap mounted on cncrete slab</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <ParameterId>HG</ParameterId>
+      <Name>Staff</Name>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGSTAFF</MethodCode>
+      <DefaultReadingType>Reference - Primary</DefaultReadingType>
+      <DefaultAccuracy>0.01</DefaultAccuracy>
+      <ShowInQuickEntry>True</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+      <Comment>staff gage on concrete pedestal</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <ParameterId>HG</ParameterId>
+      <Name>RP</Name>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGDWL</MethodCode>
+      <DefaultReadingType>Reference</DefaultReadingType>
+      <DefaultAccuracy>0.03</DefaultAccuracy>
+      <ShowInQuickEntry>True</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+      <Comment>RPs nr bank</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>70969</USGSParameterCode>
+      <ParameterId>AQ132</ParameterId>
+      <Name>DCP Battery</Name>
+      <Parameter>DCP battery voltage</Parameter>
+      <MethodCode>DefaultNone</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+    </LocationSensor>
+  </SVMobileSiteSensors>
+</UsgsHydroML>

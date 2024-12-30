@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="http://water.usgs.gov/XML/AQ/stylesheets/AQSVMobile_SS1.xsl"?>
+<UsgsHydroML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://water.usgs.gov/XML/AQ http://water.usgs.gov/XML/AQ/schema/UsgsHydroML.xsd" xmlns="http://water.usgs.gov/XML/AQ">
+  <Version>AQUARIUS</Version>
+  <Source>
+    <SoftwareName>SVMobile-AQ</SoftwareName>
+    <SoftwareVersionText>2.7.137.0</SoftwareVersionText>
+    <RemarksText />
+    <EmailAddress />
+    <CompDomain>gs.doi.net</CompDomain>
+  </Source>
+  <UnitsFamily>English</UnitsFamily>
+  <Site>
+    <SiteIdentifier organizationCode="USGS">09378630</SiteIdentifier>
+    <Name>RECAPTURE CREEK NEAR BLANDING, UT</Name>
+    <SiteData>
+      <SiteVisit>
+        <TimeRules>
+          <TimeZoneStandardName>Mountain Standard Time</TimeZoneStandardName>
+          <TimeZoneWinID>Mountain Standard Time</TimeZoneWinID>
+          <TimeDatumCode>MDT</TimeDatumCode>
+          <AdjustForDayLightSavings>true</AdjustForDayLightSavings>
+          <TimeZoneBaseUTCOffset>-07:00</TimeZoneBaseUTCOffset>
+        </TimeRules>
+        <StartDateTime timeDatumCode="MDT">2024-07-23T10:34:00-06:00</StartDateTime>
+        <EndDateTime>2024-07-23T10:51:00-06:00</EndDateTime>
+        <PartyText>jpd</PartyText>
+        <CollectionAgencyCode>USGS</CollectionAgencyCode>
+        <WeatherDescription>clear, warm, no precip, calm winds</WeatherDescription>
+        <RecorderRecordRemovedIndicator>false</RecorderRecordRemovedIndicator>
+        <WaterQualitySampleIndicator>false</WaterQualitySampleIndicator>
+        <SedimentSampleIndicator>false</SedimentSampleIndicator>
+        <BiologicalSampleIndicator>false</BiologicalSampleIndicator>
+        <OtherSampleIndicator>false</OtherSampleIndicator>
+        <LevelsRunIndicator>false</LevelsRunIndicator>
+        <GwWaterLevelsIndicator>false</GwWaterLevelsIndicator>
+        <SafetyInspectionPerformedIndicator>false</SafetyInspectionPerformedIndicator>
+        <Comment>routine visit. no new hwms. @ 10:53 sc = 230uS/cm, WT  = 13.2 degC, from middle of channel width = 1.2 ft,  and 0.4 ft depth</Comment>
+        <DischargeMeasurementStatus>Started</DischargeMeasurementStatus>
+        <EnvironmentalMeasurementsStatus />
+        <StreamFlowControlInspectionStatus>Started</StreamFlowControlInspectionStatus>
+        <SensorInspectionStatus>Started</SensorInspectionStatus>
+        <StreamZeroFlowInspectionStatus>Started</StreamZeroFlowInspectionStatus>
+        <HighWaterMarkObservationStatus>Not Started</HighWaterMarkObservationStatus>
+        <StillingWellInspectionStatus />
+        <MiscSiteVisitInfoStatus>Not Started</MiscSiteVisitInfoStatus>
+        <DataAgingCode>500</DataAgingCode>
+        <DischargeMeasurement>
+          <MeasurementNumber>504</MeasurementNumber>
+          <DischargeDateTime>2024-07-23T10:40:37-06:00</DischargeDateTime>
+          <StartDateTime>2024-07-23T10:39:07-06:00</StartDateTime>
+          <EndDateTime>2024-07-23T10:42:08-06:00</EndDateTime>
+          <ReasonFor>Routine</ReasonFor>
+          <ShowInRatingDevelopment>true</ShowInRatingDevelopment>
+          <AddToTimeSeries>true</AddToTimeSeries>
+          <Publish>true</Publish>
+          <MeasurementQualityCode description="Good (5%)">GOOD</MeasurementQualityCode>
+          <DischargeCode description="Measured">MEAS</DischargeCode>
+          <DischargeMeasure>0.045</DischargeMeasure>
+          <RatingNumberUsed>7.0</RatingNumberUsed>
+          <ReferenceGageHeightUsed>0.74</ReferenceGageHeightUsed>
+          <ShiftedRatingDischarge>0.05</ShiftedRatingDischarge>
+          <ShiftedRatingPercentDifference>-10</ShiftedRatingPercentDifference>
+          <UnshiftedRatingDischarge>0.05</UnshiftedRatingDischarge>
+          <UnshiftedRatingPercentDifference>-10</UnshiftedRatingPercentDifference>
+          <StageMeasure>0.74</StageMeasure>
+          <StageDifferenceMeasure>0</StageDifferenceMeasure>
+          <StageDifferenceDurationMeasure />
+          <BaseFlowCode description="Base flow">BASE</BaseFlowCode>
+          <Comment>Used a modified 3-in. Parshall flume. Measurement -10% or -0.005 cfs from rating7. No check, shift is due to insensitive control/rating at low flows. Meas. quality: good, stable head during measurement, free fall ratio = ~0.4.</Comment>
+          <Channel>
+            <ChannelNumber>1</ChannelNumber>
+            <ChannelName>main</ChannelName>
+            <DischargeMeasure>0.045</DischargeMeasure>
+            <DeploymentMethodCode description="Other">OTHR</DeploymentMethodCode>
+            <MeasurementMethodCode description="Flume">QFLUME</MeasurementMethodCode>
+            <ChannelMaterialCode description="cobbles">CBLS</ChannelMaterialCode>
+            <ChannelStabilityCode description="firm">FIRM</ChannelStabilityCode>
+            <ChannelEvennessCode description="even">EVEN</ChannelEvennessCode>
+            <HorizontalFlowCode description="Even">EVEN</HorizontalFlowCode>
+            <VerticalVelocityDistributionCode description="unknown">UNKN</VerticalVelocityDistributionCode>
+            <VelocityVariation description="steady">STDY</VelocityVariation>
+            <SectionLocationCode description="Upstream">UPST</SectionLocationCode>
+            <SectionDistanceMeasure>40</SectionDistanceMeasure>
+            <FlumeDischargeMeasurement>
+              <MeanHeadMeasure>0.13</MeanHeadMeasure>
+              <FlumeHeadMeasurement>
+                <MeasurementDateTime>2024-07-23T10:40:08-06:00</MeasurementDateTime>
+                <FlumeHeadMeasure>0.13</FlumeHeadMeasure>
+              </FlumeHeadMeasurement>
+              <aFlumeHeadMeasurement>
+                <MeasurementDateTime>2024-07-23T10:39:08-06:00</MeasurementDateTime>
+                <FlumeHeadMeasure>0.13</FlumeHeadMeasure>
+                <MeasurementUsedInMean>true</MeasurementUsedInMean>
+              </aFlumeHeadMeasurement>
+              <aFlumeHeadMeasurement>
+                <MeasurementDateTime>2024-07-23T10:39:41-06:00</MeasurementDateTime>
+                <FlumeHeadMeasure>0.13</FlumeHeadMeasure>
+                <MeasurementUsedInMean>true</MeasurementUsedInMean>
+              </aFlumeHeadMeasurement>
+              <aFlumeHeadMeasurement>
+                <MeasurementDateTime>2024-07-23T10:40:08-06:00</MeasurementDateTime>
+                <FlumeHeadMeasure>0.13</FlumeHeadMeasure>
+                <MeasurementUsedInMean>true</MeasurementUsedInMean>
+              </aFlumeHeadMeasurement>
+              <aFlumeHeadMeasurement>
+                <MeasurementDateTime>2024-07-23T10:40:35-06:00</MeasurementDateTime>
+                <FlumeHeadMeasure>0.13</FlumeHeadMeasure>
+                <MeasurementUsedInMean>false</MeasurementUsedInMean>
+              </aFlumeHeadMeasurement>
+              <aFlumeHeadMeasurement>
+                <MeasurementDateTime>2024-07-23T10:41:07-06:00</MeasurementDateTime>
+                <FlumeHeadMeasure>0.13</FlumeHeadMeasure>
+                <MeasurementUsedInMean>true</MeasurementUsedInMean>
+              </aFlumeHeadMeasurement>
+              <aFlumeHeadMeasurement>
+                <MeasurementDateTime>2024-07-23T10:41:34-06:00</MeasurementDateTime>
+                <FlumeHeadMeasure>0.13</FlumeHeadMeasure>
+                <MeasurementUsedInMean>true</MeasurementUsedInMean>
+              </aFlumeHeadMeasurement>
+              <aFlumeHeadMeasurement>
+                <MeasurementDateTime>2024-07-23T10:42:07-06:00</MeasurementDateTime>
+                <FlumeHeadMeasure>0.13</FlumeHeadMeasure>
+                <MeasurementUsedInMean>true</MeasurementUsedInMean>
+              </aFlumeHeadMeasurement>
+            </FlumeDischargeMeasurement>
+          </Channel>
+          <MeasurementRemarks>Used a modified 3-in. Parshall flume. Measurement -10% or -0.005 cfs from rating7. No check, shift is due to insensitive control/rating at low flows. Meas. quality: good, stable head during measurement, free fall ratio = ~0.4.</MeasurementRemarks>
+        </DischargeMeasurement>
+        <StreamFlowControlInspection>
+          <ControlCode description="Section">SECT</ControlCode>
+          <ConditionCode description="Clear">CLER</ConditionCode>
+          <DistanceToGageMeasure>5</DistanceToGageMeasure>
+          <ControlCleanedCode description="NO">NTCL</ControlCleanedCode>
+          <Comment>clear v-notch</Comment>
+        </StreamFlowControlInspection>
+        <StreamZeroFlowInspection>
+          <InspectionDateTime>2024-07-23T10:50:00-06:00</InspectionDateTime>
+          <GageHeightZeroFlowMeasure readingType="Extreme - Min">0.60</GageHeightZeroFlowMeasure>
+          <GageHeightZeroFlowAccuracy>0.05</GageHeightZeroFlowAccuracy>
+          <DepthWaterMeasure>0.14</DepthWaterMeasure>
+          <StreamStageMeasure readingType="Extreme - Max">0.74</StreamStageMeasure>
+        </StreamZeroFlowInspection>
+        <SensorInspection>
+          <BubbleGageInspection>
+            <LocationSensor>
+              <Location>
+                <LocationName />
+              </Location>
+              <Sensor>
+                <SensorType>
+                  <Parameter>
+                    <IdentifierForAQUARIUS>HG</IdentifierForAQUARIUS>
+                    <Name>Gage height</Name>
+                    <Units>ft</Units>
+                  </Parameter>
+                  <MethodCode>HGNTRAN</MethodCode>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                </SensorType>
+                <SerialNumber>Unspecified (Bubbler)</SerialNumber>
+                <SensorName>Bubbler</SensorName>
+                <HIFEquipmentID>Unspecified</HIFEquipmentID>
+              </Sensor>
+            </LocationSensor>
+          </BubbleGageInspection>
+          <SensorReading>
+            <ReadingDateTime>2024-07-23T10:35:00-06:00</ReadingDateTime>
+            <SensorMeasure readingType="Routine" publish="true">0.74</SensorMeasure>
+            <MeasureAccuracy>.01</MeasureAccuracy>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+            <UniqueId>9bd13a5c-df30-4eba-8ea1-8fde46ba9370</UniqueId>
+            <SensorReadingDetail>
+              <IsMeasuredAgainstLocalAssumedDatum>true</IsMeasuredAgainstLocalAssumedDatum>
+            </SensorReadingDetail>
+            <WorkflowType>Normal</WorkflowType>
+          </SensorReading>
+          <SensorReading>
+            <UniqueId>96d5b13d-bec7-4c0a-9e3e-2f53d1804c38</UniqueId>
+            <ReadingDateTime>2024-07-23T10:45:00-06:00</ReadingDateTime>
+            <SensorMeasure readingType="Routine" publish="true">0.74</SensorMeasure>
+            <MeasureAccuracy>.01</MeasureAccuracy>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+            <SensorReadingDetail>
+              <IsMeasuredAgainstLocalAssumedDatum>true</IsMeasuredAgainstLocalAssumedDatum>
+            </SensorReadingDetail>
+            <WorkflowType>Normal</WorkflowType>
+          </SensorReading>
+        </SensorInspection>
+        <SensorInspection>
+          <LocationSensor>
+            <Location>
+              <LocationName />
+            </Location>
+            <Sensor>
+              <SensorType>
+                <Parameter>
+                  <IdentifierForAQUARIUS>HG</IdentifierForAQUARIUS>
+                  <Name>Gage height</Name>
+                  <Units>ft</Units>
+                </Parameter>
+                <ManufacturerName>Unspecified</ManufacturerName>
+                <ModelNumber>Unspecified</ModelNumber>
+                <MethodCode>HGSTAFF</MethodCode>
+              </SensorType>
+              <SerialNumber>Unspecified (Staff)</SerialNumber>
+              <SensorName>Staff</SensorName>
+              <HIFEquipmentID>Unspecified</HIFEquipmentID>
+            </Sensor>
+          </LocationSensor>
+          <SensorReading>
+            <UniqueId>13bbcdff-3681-4f5c-9192-028528bb3217</UniqueId>
+            <ReadingDateTime>2024-07-23T10:35:00-06:00</ReadingDateTime>
+            <SensorMeasure readingType="Reference - Primary" publish="true">0.74</SensorMeasure>
+            <MeasureAccuracy>.01</MeasureAccuracy>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+            <SensorReadingDetail>
+              <IsMeasuredAgainstLocalAssumedDatum>true</IsMeasuredAgainstLocalAssumedDatum>
+            </SensorReadingDetail>
+            <WorkflowType>Normal</WorkflowType>
+          </SensorReading>
+          <SensorReading>
+            <UniqueId>ff8e5661-09a1-44c8-a1a5-61c19f6b79e0</UniqueId>
+            <ReadingDateTime>2024-07-23T10:44:00-06:00</ReadingDateTime>
+            <SensorMeasure readingType="Reference - Primary" publish="true">0.74</SensorMeasure>
+            <MeasureAccuracy>.01</MeasureAccuracy>
+            <AccuracyMethodCode>UNSP</AccuracyMethodCode>
+            <SensorReadingDetail>
+              <IsMeasuredAgainstLocalAssumedDatum>true</IsMeasuredAgainstLocalAssumedDatum>
+            </SensorReadingDetail>
+            <WorkflowType>Normal</WorkflowType>
+          </SensorReading>
+        </SensorInspection>
+        <SensorInspection>
+          <CrestStageGageInspection>
+            <LocationSensor>
+              <Location>
+                <LocationName />
+              </Location>
+              <Sensor>
+                <SensorType>
+                  <Parameter>
+                    <USGSParameterCode>00065</USGSParameterCode>
+                    <Name>Gage height</Name>
+                    <Units>ft</Units>
+                  </Parameter>
+                  <ManufacturerName>Unspecified</ManufacturerName>
+                  <ModelNumber>Unspecified</ModelNumber>
+                  <MethodCode>HGCSG</MethodCode>
+                </SensorType>
+                <SerialNumber>Unspecified (CSG)</SerialNumber>
+                <SensorName>CSG</SensorName>
+              </Sensor>
+            </LocationSensor>
+            <GageInspectedCode>No mark</GageInspectedCode>
+            <IntakeHoleConditionCode>Open</IntakeHoleConditionCode>
+            <VentHoleConditionCode>Open</VentHoleConditionCode>
+          </CrestStageGageInspection>
+        </SensorInspection>
+        <StationLevelsStatus>Not Started</StationLevelsStatus>
+        <QWMonMaintStatus>Not Started</QWMonMaintStatus>
+        <GroundwaterLevelsStatus>Not Started</GroundwaterLevelsStatus>
+        <WQXSectionStatus>Not Started</WQXSectionStatus>
+        <WQVProfileStatus />
+        <SafetyInspectionStatus />
+        <CrossSectionIndicator>false</CrossSectionIndicator>
+      </SiteVisit>
+    </SiteData>
+  </Site>
+  <SVMobileSiteSensors>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <ParameterId>HG</ParameterId>
+      <Name>CSG</Name>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGCSG</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+      <Comment>from data migration</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <ParameterId>HG</ParameterId>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGETG</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+      <Comment>from data migration</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <ParameterId>HG</ParameterId>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGFLOAT</MethodCode>
+      <ShowInQuickEntry>False</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+      <Comment>from data migration</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <ParameterId>HG</ParameterId>
+      <Name>Bubbler</Name>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGNTRAN</MethodCode>
+      <DefaultReadingType>Routine</DefaultReadingType>
+      <DefaultAccuracy>.01</DefaultAccuracy>
+      <ShowInQuickEntry>True</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+      <Comment>from data migration</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <ParameterId>HG</ParameterId>
+      <Name>Staff</Name>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGSTAFF</MethodCode>
+      <DefaultReadingType>Reference - Primary</DefaultReadingType>
+      <DefaultAccuracy>.01</DefaultAccuracy>
+      <ShowInQuickEntry>True</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+      <Comment>from data migration</Comment>
+    </LocationSensor>
+    <LocationSensor>
+      <USGSParameterCode>00065</USGSParameterCode>
+      <ParameterId>HG</ParameterId>
+      <Name>RP</Name>
+      <Parameter>Gage height</Parameter>
+      <MethodCode>HGDWL</MethodCode>
+      <DefaultReadingType>Reference - Primary</DefaultReadingType>
+      <DefaultAccuracy>.01</DefaultAccuracy>
+      <ShowInQuickEntry>True</ShowInQuickEntry>
+      <SpecialInspType>None</SpecialInspType>
+    </LocationSensor>
+  </SVMobileSiteSensors>
+</UsgsHydroML>
