@@ -18,6 +18,8 @@ The app is built in Rstudio using the following directory structure.
 Files can be accessed via the github
 repository:[DiSCWT](https://github.com/jpdarling/DiSCWT)
 
+<br>
+
     /project_directory
     ├── DiSCWT.Rproj          # RStudio Project file 
     ├── app.R                 # Main Shiny app script, defines the UI and server logic, and executes the app.
@@ -61,14 +63,13 @@ how the data may appear. There are inherent challenges to extracting
 data from varied comment formats. Below are some examples of XML
 comments with specific conductance, temperature and associated metadata
 data that the script successfully processes. If you wish to successfully
-use DiSCWT you will need to follow the templates below for recoding SC,
-Temperature and associated metadata in SVAMAQ.
+use DiSCWT, you will need to follow the templates below for documenting
+specific conductance (SC), temperature, and associated metadata in SVMAQ
+comments.
 
-<br>
+#### Recongized formats for discharge measurement comments:
 
-##### Recongized formats for discharge measurement comments
-
--   ##### *`conductivity = 62 uS/cm 1 ft from lew 0.5 ft depth`*<br>
+-   ##### *`conductivity = 62 uS/cm 1 ft from lew 0.5 ft depth`*
 
 -   ##### *`sc = 1525 uS/cm middle channel 0.25 depth`*
 
@@ -78,9 +79,7 @@ Temperature and associated metadata in SVAMAQ.
 
 -   ##### *`sc = 335 2 ft from RB`*
 
-<br>
-
-##### Recongized formats for site visit comments
+#### Recongized formats for site visit comments:
 
 -   ##### *`...@ 10:53 sc = 230 uS/cm, WT = 13.2 deg C, from middle of channel width = 1.2 ft, and 0.4 ft depth`*
 
@@ -94,12 +93,16 @@ Temperature and associated metadata in SVAMAQ.
 
 <br>
 
-#### Methods used to extract parameters from XML comments:
+### Methods and Workflow for Extracting Specific Parameters from XML Comments:
 
-Below is a summary of how the script operates to pull out data from
+Many parameter values are derived from fields within the XML structure
+however sometimes the script must look elsewhere to extract data. Below
+is a summary of how the script operates to pull out data from
 unsupported XML comments associated with the various parameters:
 
-1.  #### Datetime
+<br>
+
+-   #### Datetime:
 
     The script first attempts to pull the datetime field nested within
     the XML structure associated with the reading time of ADV
@@ -125,7 +128,9 @@ unsupported XML comments associated with the various parameters:
     -   If no AM/PM is present, the time is assumed to be in 24-hour
         format.
 
-2.  #### Measurement Depth (ft), Parameter 00003
+<br>
+
+-   #### Measurement Depth (ft), Parameter 00003:
 
     The Measurement Depth is extracted from the comments associated with
     the discharge measurement or the site visit. The script first
@@ -142,7 +147,9 @@ unsupported XML comments associated with the various parameters:
     pattern, which searches for the depth mentioned with terms like
     **`"ft depth"`** or **`depth"`**.
 
-3.  #### Stream Width (ft), Parameter 00004
+<br>
+
+-   #### Stream Width (ft), Parameter 00004:
 
     The stream width for parameter 00004 is primarily extracted from the
     discharge measurement data. If a value is found, it is recorded and
@@ -153,7 +160,9 @@ unsupported XML comments associated with the various parameters:
     If no width is found in either the discharge measurement or the site
     visit comments, the parameter is excluded from the final results.
 
-4.  #### Distance from LEW (ft), Parameter 00009
+<br>
+
+-   #### Distance from LEW (ft), Parameter 00009:
 
     The distance from the left edge of water (LEW) is extracted from
     comments associated with either the discharge measurement or the
@@ -169,7 +178,9 @@ unsupported XML comments associated with the various parameters:
     If no valid distance is found or if the required stream width is
     missing, the parameter is omitted from the final results.
 
-5.  #### Water Temperature (˚C), Parameter 00010
+<br>
+
+-   #### Water Temperature (˚C), Parameter 00010:
 
     The script first attempts to extract the verification water
     temperature and its unit from the XML structure associated with ADV
@@ -187,7 +198,9 @@ unsupported XML comments associated with the various parameters:
     processing log. Only valid temperatures reported in Celsius, are
     included in the final results.
 
-6.  #### Specific Conductance (SC), Parameter 00095
+<br>
+
+-   #### Specific Conductance (SC), Parameter 00095:
 
     The script extracts SC data from comments associated with either the
     discharge measurement or the site visit. The regex pattern
@@ -214,7 +227,7 @@ unsupported XML comments associated with the various parameters:
     printed in the processing log, indicating that no adjustment was
     made and that the reading is marked as invalid.
 
-\`\`\`
+<br>
 
 #### Contact
 
