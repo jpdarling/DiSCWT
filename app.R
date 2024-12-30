@@ -51,28 +51,48 @@ source("functions/processing_functions.R")
 
 ui <- fluidPage(
   shinyjs::useShinyjs(),  # Initialize shinyjs
-  theme = shinytheme("cerulean"),
+  #theme = shinytheme("cerulean"),
   tags$style(HTML("
     h1, h2, h4, h5, h6 {
       color: black;
     }
-  ")),
-  tags$style(HTML("
     body {
       margin-top: 20px;
+      background-color: white;
+      border-radius: 5px;
     }
-  ")),
+  .btn-grey { 
+    background-color: white; 
+      color: black; 
+      border: 1px solid #708090; 
+    border-radius: 2px; 
+      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+      width: auto;
+      padding: 5px 15px;
+  }
+  .sidebarPanel {
+      color: black;
+      background-color: #f9f9f9 !important;
+      border: 1px solid #808080; 
+      border-radius: 5px; 
+      padding: 15px; /* 
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+")),
   
+
   # Title
   div(
     h3(strong("DiSCWT"), style = "display: inline; margin-right: -4px; face: bold; color: green;"), 
     tags$span("beta", style = "font-size: 14px; display: inline; color: green;")
   ),
-  h4("Discrete Specific Conductance & Water Temperature batch data processing tool", 
-     style = "color: grey;"),
+  h5("Discrete Specific Conductance & Water Temperature processing tool", 
+     style = "color: grey; margin-top: 2px;"),
   
+  # Sidebar
   sidebarLayout(
     sidebarPanel(
+      class = "sidebarPanel",
       h4("Details"),
       p("Select your field office, upload your SVMAQ XML files, click 'Process Files', and 
         download the qwsample and qwresult TXT files using the buttons below."),
@@ -81,15 +101,15 @@ ui <- fluidPage(
                    choices = c("MOAB", "CEDAR", "SLC"),
                    inline = TRUE),
       fileInput("files", "Upload XML Files", multiple = TRUE, accept = c(".xml")),
-      actionButton("process", "Process Files", class = "btn-primary", disabled = TRUE),  # Initially disabled
+      actionButton("process", "Process Files", class = "btn-grey", disabled = TRUE),  # Initially disabled
       br(), br(),
       h4("Status"),
       textOutput("status"),
       br(),
-      downloadButton("download_samples", "qwsample", disabled = TRUE),  # Initially disabled
-      downloadButton("download_results", "qwresult", disabled = TRUE),  # Initially disabled
+      downloadButton("download_samples", "QWsample", disabled = TRUE, class = "btn-grey"),  # Initially disabled
+      downloadButton("download_results", "QWresult", disabled = TRUE, class = "btn-grey"),  # Initially disabled
       br(), br(),
-      actionButton("clear", "Clear Files", class = "btn-warning"),
+      actionButton("clear", "Clear Files", class = "btn-grey"),
       br(), br()
     ),
     
@@ -102,20 +122,18 @@ ui <- fluidPage(
     )
   ),
   
-  # Notes directly below the sidebar
+  # Notes below the sidebar
   div(
-    style = "margin-left: 15px; margin-top: 20px; padding: 15px; border-radius: 5px;",
-    h4("Processing Notes:", style = "color: grey;"),
-    
-    p("The tool uses specific xml paths and regex patterns to capture 
-    necessary information while allowing some flexibility in how the data may 
-    appear in unsupported XML comments. Some of the logic used to extract the 
-      data is explained below."),
-    tags$a("View README", href = "README.html", target = "_blank", style = "color: blue; text-decoration: underline;"),
+    style = "margin-left: 15px; margin-top: 10px; padding: 15px; border-radius: 5px;",
+    h4("Processing Notes:"),
+    div(
+      p("The tool uses specific xml paths and regex patterns to capture necessary information while allowing some flexibility in how the data may appear in unsupported XML comments. Some of the logic used to extract the data is explained in", style = "display: inline;"),
+      tags$a("README", href = "README.html", target = "_blank", style = "color: blue; text-decoration: underline; display: inline;"))
   ),
   
   # Footer
   div(class = "footer",
+      style = "margin-left: 15px; margin-top: 20px; padding: 15px; border-radius: 5px;",
       # Title
       div(
         h5(strong("Contact: "), style = "display: inline; margin-right: 5px; face: bold; color: black;"), 
