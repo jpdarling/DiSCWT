@@ -365,11 +365,11 @@ uploading to Aquarius samples. It reads XML data, extracts relevant
 parameters, and compiles cleaned data into the following output data
 frames: <code>qwsamples.txt</code> and <code>qwresults.txt</code>.</p>
 <p><br></p>
-</div>
-<div id="directory-structure" class="section level3">
-<h3>Directory Structure:</h3>
 <p>The app is built in Rstudio using the following directory structure.
 Files can be accessed via the github repository:<a href="https://github.com/jpdarling/DiSCWT">DiSCWT</a></p>
+</div>
+<div id="directory-structure" class="section level3">
+<h3>Directory structure:</h3>
 <p><br></p>
 <pre><code>/project_directory
 ├── DiSCWT.Rproj          # RStudio Project file 
@@ -442,8 +442,8 @@ comments.</p>
 </div>
 </div>
 <div id="methods-and-workflow-for-extracting-specific-parameters-from-xml-comments" class="section level3">
-<h3>Methods and Workflow for Extracting Specific Parameters from XML
-Comments:</h3>
+<h3>Methods and workflow for extracting specific parameters from XML
+comments:</h3>
 <p>Many parameter values are derived from fields within the XML
 structure however sometimes the script must look elsewhere to extract
 data. Below is a summary of how the script operates to pull out data
@@ -554,12 +554,13 @@ included in the final results.</p></li>
 </ul>
 <p><br></p>
 <ul>
-<li><h4 id="specific-conductance-sc-parameter-00095">Specific
-Conductance (SC), Parameter 00095:</h4>
-<p>The script extracts SC data from comments associated with either the
-discharge measurement or the site visit. The regex pattern prioritizes
-matching <strong><code>&quot;SC&quot;</code></strong> values, checking for common
-patterns such as <strong><code>&quot;SC = 308 uS/cm&quot;</code></strong> or
+<li><h4 id="specific-conductance-μscm-parameter-00095">Specific
+Conductance (μS/cm), Parameter 00095:</h4>
+<p>The script extracts Specific Conductance (SC) data from comments
+associated with either the discharge measurement or the site visit. The
+regex pattern prioritizes matching <strong><code>&quot;SC&quot;</code></strong>
+values, checking for common patterns such as
+<strong><code>&quot;SC = 308 uS/cm&quot;</code></strong> or
 <strong><code>&quot;SC: 500 uS&quot;</code></strong>. If a valid SC value is
 found, it proceeds by extracting the numeric value and verifying the
 unit of <strong><code>&quot;μS/cm&quot;</code></strong> (microsiemens per
